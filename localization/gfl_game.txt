@@ -13,7 +13,7 @@
 @WEAP-AN94-DESC=The AN-94, or Avtomat Nikonova 1994, is a 5.45x39mm caliber gas-operated Russian firearm made by PO Izhmash made during Project Abakan. Project Abakan was a Russian assault rifle program that took place from 1980 to 1994. Being the only outcome from the project, AN-94 was awarded with the name Abakan. The GRAU designation for the AN-94 is '6P33'.
 
 @GFL-UNIT-404-NAME=H.I.D.E 404
-@GFL-UNIT-404-DESC=An mercenary unit of tactical dolls specialising in covert operations and electronic warfare, known for completing contracts through any means necessary regardless of collateral damage.
+@GFL-UNIT-404-DESC=A mercenary unit of tactical dolls specialising in covert operations and electronic warfare, known for completing contracts through any means necessary regardless of collateral damage.
 @#GFL-UNIT-404-NAME-RND=H.I.D.E 404
 
 @DOLL-HK416-NAME=KLUKAI
@@ -97,7 +97,7 @@
 @WEAP-XCR-DESC=The XCR is a line of American rifles by Robinson Armament Co. It was developed for the Special Operations Forces Combat Assault Rifle competition (which would be won by FN's SCAR line) but ultimately never joined it.
 
 @GFL-UNIT-GROZA-NAME=Groza Squad
-@GFL-UNIT-GROZA-DESC=Groza Squad
+@GFL-UNIT-GROZA-DESC=The Commander's premier squad aboard the Elmo MCV. A diverse group of dolls united under Groza's leadership in the contaminated zones.
 @#GFL-UNIT-GROZA-NAME-RND=Groza Squad
 
 @DOLL-OTS14-NAME=GROZA
@@ -299,7 +299,7 @@
 @doctrine_gfl_groza_tameyourrabbit_descr=A fierce temper burns beneath the surface, but her sense of responsibility never wavers. When wounded, the rabbit bares her teeth; Faster, fiercer, unyielding. She will give it her all, even if she absolutely detests it.
 
 @doctrine_gfl_groza_cavityprotection_name=Cavity Protection
-@doctrine_gfl_groza_cavityprotection_descr=Cheerful and enthusiastic, yet cold and clinical when necessary. Colgates' advanced medical protocols provide maximum protection. The syringe saves lives, enhanced survival capabilities keep the squad operational. 9 out of 10 squad members agree.
+@doctrine_gfl_groza_cavityprotection_descr=Cheerful and enthusiastic, yet cold and clinical when necessary. Colgate's advanced medical protocols provide maximum protection. The syringe saves lives, enhanced survival capabilities keep the squad operational. 9 out of 10 squad members agree.
 
 @doctrine_gfl_groza_centerstage_name=Center Stage
 @doctrine_gfl_groza_centerstage_descr=Leading from the front with unwavering confidence, Vepley takes center stage on the battlefield with shotgun in hand. Her meticulously prepared performance inspires all who follow in her wake, boosting their morale and combat effectiveness. A perfect performance, dedicated to all Vepley fans who support her.

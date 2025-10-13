@@ -306,7 +306,7 @@
 
 		<Item>
 			<StaticImage origin="0 380">
-				<RenderObject2D texture="data/textures/gui/keyart_cafe/dk2_logo.dds" />
+				<RenderObject2D texture="data/textures/gui/keyart_groza/dk2_logo.dds" />
 			</StaticImage>
 		</Item>
 
