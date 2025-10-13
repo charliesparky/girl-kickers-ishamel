@@ -42,8 +42,14 @@ Special thanks to:
 [*] MICA Team - Girls&apos; Frontline 2: Exilium
 [*] kenji1997 - AssetStudio fork for model extraction
 [*] [url=https://www.instagram.com/luwiss96/]Luwis96[/url] - Commissioned weapon UI images 
-[/list]
-" changeNotes="Fix Andoris doctine not revealing enemies at mission start.
+[/list]" changeNotes="Add Groza Squad as a unit.
+Fix some weapon models to be held correctly.
+Fix hair in several character models.
+Fix internal file structure to be more compatible with base game and other mods in the future.
+
 Balance changes:
-- Minor health reduction to all dolls.
-- Reduce rate of fire and increase damage of M1903 and WA2000." languageMod="" tags="Playable Units,Equipment,UI" ugcId="3580762170"/>
+- Slight move speed changes across the board to better reflect GFL2 movement speed.
+- Restrict dolls to only being able to equip their signature weapon as a primary - this allows me to do more interesting things with dolls, weapons, and doctrines without becoming a balancing nightmare.
+- Switch several attack types from NWS to Rangers.
+
+" languageMod="" tags="Playable Units,Equipment,UI" ugcId="3580762170"/>
