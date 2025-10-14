@@ -136,6 +136,7 @@
             accuracyEndDist="45"
             suppressionScale="1.1"
             suppressArea="1"
+            meleeDamageBonus="75"
         />
 
 		<Params
@@ -1396,7 +1397,7 @@
 
 	<Firearm
         name="GFL-WEAP-CURVA"
-        inventoryBinding="PrimaryWeapon"
+        inventoryBinding="SecondaryWeapon"
         category="pistol"
         unlockCost="0"
         tooltip="@WEAP-CURVA-NAME"
@@ -1461,7 +1462,7 @@
 			<Unequip name="pistol_neqp" />
 			<Reload name="pistol_reld" />
 			<ReloadEmpty name="pistol_reldempt" />
-			<Fire name="pistol_fire" />
+			<Fire name="m9_fire" />
 			<ShellDrop name="pistol_shell_drop" />
 			<Empty name="gen_empty" />
 		</Sounds>

@@ -121,6 +121,12 @@
 @WEAP-HARE-DESC=A melee weapon highly compatible with Krolik. Modified based on her combat preferences and painted with a skin that matches Krolik's colors.
 @firearm_operation_melee=Melee
 
+@armor_gfl_hare_name=Shield & Plate
+@armor_gfl_hare_desc=Tactical shield combined with reinforced plating. Krolik's shield provides exceptional frontal coverage while charging into close quarters. Limited mobility and rear protection.
+
+@armor_gfl_hare_heavy_name=Heavy Shield Rig
+@armor_gfl_hare_heavy_desc=Reinforced full-coverage shield system with additional side and rear armor plating. Provides comprehensive protection at the cost of significantly reduced mobility and increased profile. For when Krolik needs to tank through heavy fire.
+
 @no_ammo_name=None
 @no_ammo_desc=
 @scope_no_sights_name=None

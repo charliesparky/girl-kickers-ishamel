@@ -17,21 +17,18 @@
 		<to name="GFL-UNIT-DEFY" />
 		<to name="GFL-UNIT-404" />
 		<to name="GFL-UNIT-CAFE" />
-		<to name="GFL-UNIT-GROZA" />
 	</Bind>
 
 	<Bind eqp="GFL_CombatMatrix">
 		<to name="GFL-UNIT-DEFY" />
 		<to name="GFL-UNIT-404" />
 		<to name="GFL-UNIT-CAFE" />
-		<to name="GFL-UNIT-GROZA" />
 	</Bind>
 
 	<Bind eqp="GFL_HardenedCore">
 		<to name="GFL-UNIT-DEFY" />
 		<to name="GFL-UNIT-404" />
 		<to name="GFL-UNIT-CAFE" />
-		<to name="GFL-UNIT-GROZA" />
 	</Bind>
 
 	<Helmet
@@ -57,15 +54,15 @@
         description="@armor_gfl_reactive_desc"
         img="data/models/equipment/armor_noplates_ui.dds"
     >
-		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0" />
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0" />
 		<ConcealmentModifier add="0" />
 
 		<Params>
-			<ProtectionArc degrees="90" coveragePercent="70" piercingProtectionLevel="60" />
+			<ProtectionArc degrees="90" coveragePercent="55" piercingProtectionLevel="50" />
 			<ProtectionArc
                 degrees="180"
-                coveragePercent="50"
-                piercingProtectionLevel="40"
+                coveragePercent="30"
+                piercingProtectionLevel="30"
             />
 			<ProtectionArc
                 degrees="360"
@@ -84,17 +81,17 @@
         img="data/models/equipment/armor_softlevelii_ui.dds"
     >
 		<MobilityModifiers
-            moveSpeedModifierPercent="-3"
-            turnSpeedModifierPercent="-2"
+            moveSpeedModifierPercent="-5"
+            turnSpeedModifierPercent="-3"
         />
 		<ConcealmentModifier add="0" />
 
 		<Params>
-			<ProtectionArc degrees="90" coveragePercent="75" piercingProtectionLevel="70" />
+			<ProtectionArc degrees="90" coveragePercent="60" piercingProtectionLevel="60" />
 			<ProtectionArc
                 degrees="180"
-                coveragePercent="60"
-                piercingProtectionLevel="50"
+                coveragePercent="40"
+                piercingProtectionLevel="40"
             />
 			<ProtectionArc
                 degrees="360"
@@ -113,22 +110,22 @@
         img="data/models/equipment/armor_softleveliiia_ui.dds"
     >
 		<MobilityModifiers
-            moveSpeedModifierPercent="-5"
-            turnSpeedModifierPercent="-3"
+            moveSpeedModifierPercent="-12"
+            turnSpeedModifierPercent="-6"
         />
 		<ConcealmentModifier add="-1" />
 
 		<Params>
-			<ProtectionArc degrees="90" coveragePercent="85" piercingProtectionLevel="85" />
+			<ProtectionArc degrees="90" coveragePercent="70" piercingProtectionLevel="75" />
 			<ProtectionArc
                 degrees="180"
-                coveragePercent="70"
-                piercingProtectionLevel="65"
+                coveragePercent="50"
+                piercingProtectionLevel="55"
             />
 			<ProtectionArc
                 degrees="360"
                 coveragePercent="50"
-                piercingProtectionLevel="45"
+                piercingProtectionLevel="40"
             />
 		</Params>
 	</Armor>
@@ -361,7 +358,6 @@
         <eqp name="EmptyPrimaryMuzzle" />
         <eqp name="EmptySecondaryMuzzle" />
 	</Bind>
-
     <Bind to="GFL-DOLL-OTS14">
         <eqp name="GFL-WEAP-OTS14" />
 
@@ -371,6 +367,10 @@
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
+
+    	<eqp name="GFL_ReactiveShielding" />
+    	<eqp name="GFL_CombatMatrix" />
+    	<eqp name="GFL_HardenedCore" />
     </Bind>
 
     <Bind to="GFL-DOLL-OM50">
@@ -382,21 +382,85 @@
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
+
+    	<eqp name="GFL_ReactiveShielding" />
+    	<eqp name="GFL_CombatMatrix" />
+    	<eqp name="GFL_HardenedCore" />
     </Bind>
+
+	<Armor
+        name="GFL-ARMOR-HARE"
+        inventoryBinding="Armor"
+        unlockCost="0"
+        tooltip="@armor_gfl_hare_name"
+        description="@armor_gfl_hare_desc"
+        img="data/models/equipment/shield_01_ui.dds"
+    >
+		<MobilityModifiers
+            moveSpeedModifierPercent="-2"
+            turnSpeedModifierPercent="-1"
+        />
+		<ConcealmentModifier add="-2" />
+
+		<Params>
+			<ProtectionArc degrees="90" coveragePercent="70" piercingProtectionLevel="70" />
+			<ProtectionArc
+                degrees="180"
+                coveragePercent="40"
+                piercingProtectionLevel="40"
+            />
+			<ProtectionArc
+                degrees="360"
+                coveragePercent="30"
+                piercingProtectionLevel="20"
+            />
+		</Params>
+	</Armor>
+
+	<Armor
+        name="GFL-ARMOR-HARE-HEAVY"
+        inventoryBinding="Armor"
+        unlockCost="5"
+        tooltip="@armor_gfl_hare_heavy_name"
+        description="@armor_gfl_hare_heavy_desc"
+        img="data/models/equipment/shield_02_ui.dds"
+    >
+		<MobilityModifiers
+            moveSpeedModifierPercent="-13"
+            turnSpeedModifierPercent="-10"
+        />
+		<ConcealmentModifier add="-3" />
+
+		<Params>
+			<ProtectionArc degrees="90" coveragePercent="75" piercingProtectionLevel="75" />
+			<ProtectionArc
+                degrees="180"
+                coveragePercent="65"
+                piercingProtectionLevel="60"
+            />
+			<ProtectionArc
+                degrees="360"
+                coveragePercent="50"
+                piercingProtectionLevel="40"
+            />
+		</Params>
+	</Armor>
 
     <Bind to="GFL-DOLL-HARE">
         <eqp name="GFL-WEAP-HARE" />
-
-        <eqp name="M9 Pistol" />
-        <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
-        <eqp name="G19X Pistol" />
-        <eqp name="G2240 Pistol" />
-        <eqp name="1911 Pistol" />
+        <eqp name="GFL-ARMOR-HARE" />
+        <eqp name="GFL-ARMOR-HARE-HEAVY" />
     </Bind>
 
     <Bind to="GFL-DOLL-CURVA">
+        <eqp name="NWS Shield Lvl III" />
+        <eqp name="NWS Shield Lvl IV" />
+
         <eqp name="GFL-WEAP-CURVA" />
+
+    	<eqp name="GFL_ReactiveShielding" />
+    	<eqp name="GFL_CombatMatrix" />
+    	<eqp name="GFL_HardenedCore" />
     </Bind>
 
     <Bind to="GFL-DOLL-VEPR12">
@@ -408,6 +472,10 @@
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
+
+    	<eqp name="GFL_ReactiveShielding" />
+    	<eqp name="GFL_CombatMatrix" />
+    	<eqp name="GFL_HardenedCore" />
     </Bind>
 
 	<Bind to="GFL-UNIT-GROZA">
