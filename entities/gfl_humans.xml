@@ -17,7 +17,7 @@
                 name="DEFY-AN94"
                 portrait="data/textures/portraits/gfl_an94.dds"
                 gender="0"
-                voicePack="cia_female"
+                voicePack="Alva-Voice"
             />
 			<FOV degrees="135" distanceMeters="999" eyeRadiusMeters="1" />
 			<Brain suppressionRecovery="80.0" />
@@ -58,7 +58,7 @@
                 name="DEFY-AK15"
                 portrait="data/textures/portraits/gfl_ak15.dds"
                 gender="0"
-                voicePack="cia_female"
+                voicePack="Voymastina-Voice"
             />
 			<FOV degrees="135" distanceMeters="999" eyeRadiusMeters="1" />
 			<Brain suppressionRecovery="80.0" />

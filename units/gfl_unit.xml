@@ -107,6 +107,7 @@
         </Ranks>
 
         <Doctrine doctrinePointsPerSquadLevel="1">
+            <Node name="Handguns_ReloadDrills" />
             <Node name="GFL_CQCProtocols">
                 <Node name="GFL_OverwhelmingForce" />
             </Node>
@@ -304,6 +305,7 @@
         </Ranks>
 
         <Doctrine doctrinePointsPerSquadLevel="1">
+            <Node name="Handguns_ReloadDrills" />
             <Node name="GFL_CQCProtocols">
                 <Node name="GFL_OverwhelmingForce" />
             </Node>
@@ -463,6 +465,7 @@
         </Ranks>
 
         <Doctrine doctrinePointsPerSquadLevel="1">
+            <Node name="Handguns_ReloadDrills" />
             <Node name="GFL_CQCProtocols">
                 <Node name="GFL_OverwhelmingForce" />
             </Node>
@@ -635,6 +638,7 @@
         </Ranks>
 
         <Doctrine doctrinePointsPerSquadLevel="1">
+            <Node name="Handguns_ReloadDrills" />
             <Node name="GFL_CQCProtocols">
                 <Node name="GFL_OverwhelmingForce" />
             </Node>

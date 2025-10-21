@@ -11,7 +11,6 @@
 	overpenetrates			- optional, default 0 - Set to 1 will make shots pierce first hit human
 	damageType				- optional, default 0 - Can be changed for rare modding reasons to fake more powerful weapons
  -->
-
     <Ammo
         name="473x33_Caseless_G11"
         tooltip="@ammo_473_caseless_name"

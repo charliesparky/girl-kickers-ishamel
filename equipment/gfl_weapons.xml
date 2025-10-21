@@ -1470,8 +1470,6 @@
 <!-- Vepr-12 -->
 	<Bind eqp="GFL-WEAP-VEPR12">
 		<to name="12GA00BUCK_M1014" />
-		<to name="12GA00BUCK8_M500" />
-		<to name="12GANO4BUCK_M500" />
 
 		<to name="IronSights" />
 		<to name="M68CCO" />
