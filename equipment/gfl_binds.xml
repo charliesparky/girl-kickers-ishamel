@@ -7,7 +7,7 @@
 		<to name="GFL-UNIT-ELMOCE" />
 	</Bind>
 
-	<Bind eqp="FeetOfTitanium">
+	<Bind eqp="GFL_FeetOfTitanium">
 		<to name="GFL-UNIT-DEFY" />
 		<to name="GFL-UNIT-404" />
 		<to name="GFL-UNIT-CAFE" />

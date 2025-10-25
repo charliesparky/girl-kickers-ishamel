@@ -1,5 +1,5 @@
 <Equipment>
-	<FeetOfSteel name="FeetOfTitanium" inventoryBinding="SupportGear3">
+	<FeetOfSteel name="GFL_FeetOfTitanium" inventoryBinding="SupportGear3">
 		<ModifiableParams
             efficiencyPercent="300"
             audibleSoundRadius="12.0"
