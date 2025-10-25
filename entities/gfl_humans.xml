@@ -34,7 +34,7 @@
 				<Item name="IronSights_Pistol" />
 				<Item name="Flashbang" />
 				<Item name="Frag Grenade" />
-				<Item name="FeetOfSteel" />
+				<Item name="FeetOfTitanium" />
 				<Item name="GFL_ReactiveShielding" />
 			</Equipment>
 		</Human>
@@ -75,7 +75,7 @@
 				<Item name="IronSights_Pistol" />
 				<Item name="Flashbang" />
 				<Item name="Frag Grenade" />
-				<Item name="FeetOfSteel" />
+				<Item name="FeetOfTitanium" />
 				<Item name="GFL_ReactiveShielding" />
 			</Equipment>
 		</Human>
@@ -116,7 +116,7 @@
 				<Item name="IronSights_Pistol" />
 				<Item name="Flashbang" />
 				<Item name="Frag Grenade" />
-				<Item name="FeetOfSteel" />
+				<Item name="FeetOfTitanium" />
 				<Item name="GFL_ReactiveShielding" />
 			</Equipment>
 		</Human>
@@ -403,7 +403,7 @@
 				<Item name="IronSights_Pistol" />
 				<Item name="Flashbang" />
 				<Item name="Frag Grenade" />
-				<Item name="FeetOfSteel" />
+				<Item name="FeetOfTitanium" />
 				<Item name="GFL_ReactiveShielding" />
 			</Equipment>
 		</Human>
@@ -567,7 +567,7 @@
 				<Item name="IronSights_Pistol" />
 				<Item name="Flashbang" />
 				<Item name="Frag Grenade" />
-				<Item name="FeetOfSteel" />
+				<Item name="FeetOfTitanium" />
 				<Item name="GFL_ReactiveShielding" />
 			</Equipment>
 		</Human>
@@ -647,7 +647,7 @@
 				<Item name="GFL-ARMOR-HARE" />
 				<Item name="Flashbang" />
 				<Item name="Frag Grenade" />
-				<Item name="FeetOfSteel" />
+				<Item name="FeetOfTitanium" />
 			</Equipment>
 		</Human>
 	</Entity>
@@ -725,7 +725,7 @@
 				<Item name="IronSights_Pistol" />
 				<Item name="Flashbang" />
 				<Item name="Frag Grenade" />
-				<Item name="FeetOfSteel" />
+				<Item name="FeetOfTitanium" />
 				<Item name="GFL_ReactiveShielding" />
 			</Equipment>
 		</Human>
@@ -766,7 +766,7 @@
 				<Item name="IronSights_Pistol" />
 				<Item name="Flashbang" />
 				<Item name="Frag Grenade" />
-				<Item name="FeetOfSteel" />
+				<Item name="FeetOfTitanium" />
 				<Item name="GFL_ReactiveShielding" />
 			</Equipment>
 		</Human>
@@ -807,7 +807,7 @@
 				<Item name="IronSights_Pistol" />
 				<Item name="Flashbang" />
 				<Item name="Frag Grenade" />
-				<Item name="FeetOfSteel" />
+				<Item name="FeetOfTitanium" />
 				<Item name="GFL_ReactiveShielding" />
 			</Equipment>
 		</Human>
@@ -848,7 +848,7 @@
 				<Item name="IronSights_Pistol" />
 				<Item name="Flashbang" />
 				<Item name="Frag Grenade" />
-				<Item name="FeetOfSteel" />
+				<Item name="FeetOfTitanium" />
 				<Item name="GFL_ReactiveShielding" />
 			</Equipment>
 		</Human>

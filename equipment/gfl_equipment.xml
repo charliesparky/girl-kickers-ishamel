@@ -1,0 +1,12 @@
+<Equipment>
+	<FeetOfSteel name="FeetOfTitanium" inventoryBinding="SupportGear3">
+		<ModifiableParams
+            efficiencyPercent="300"
+            audibleSoundRadius="12.0"
+            timePerKickMsec="1000"
+            damagePerKick="80"
+            damageType="1"
+        />
+		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0" />
+	</FeetOfSteel>
+</Equipment>

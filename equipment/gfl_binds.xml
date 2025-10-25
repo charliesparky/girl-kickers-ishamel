@@ -7,6 +7,14 @@
 		<to name="GFL-UNIT-ELMOCE" />
 	</Bind>
 
+	<Bind eqp="FeetOfTitanium">
+		<to name="GFL-UNIT-DEFY" />
+		<to name="GFL-UNIT-404" />
+		<to name="GFL-UNIT-CAFE" />
+		<to name="GFL-UNIT-GROZA" />
+		<to name="GFL-UNIT-ELMOCE" />
+	</Bind>
+
 	<Bind eqp="GFL_OcularEnhancement">
 		<to name="GFL-UNIT-DEFY" />
 		<to name="GFL-UNIT-404" />
