@@ -1570,7 +1570,7 @@
         unlockCost="0"
         tooltip="@WEAP-PKPSP-NAME"
         description="@WEAP-PKPSP-DESC"
-        img="data/models/signatures/g36_ui.dds"
+        img="data/models/signatures/pkpsp_ui.dds"
         animationSet="rifle"
     >
 		<MobilityModifiers
@@ -1664,7 +1664,7 @@
         unlockCost="0"
         tooltip="@WEAP-SPAS12-NAME"
         description="@WEAP-SPAS12-DESC"
-        img="data/models/signatures/g36_ui.dds"
+        img="data/models/signatures/spas12_ui.dds"
         animationSet="shotgun_m1014"
     >
 		<MobilityModifiers
@@ -1751,7 +1751,7 @@
         unlockCost="0"
         tooltip="@WEAP-TYPE97-NAME"
         description="@WEAP-TYPE97-DESC"
-        img="data/models/signatures/g36_ui.dds"
+        img="data/models/signatures/type97_ui.dds"
         animationSet="shotgun_m1014"
     >
 		<MobilityModifiers
@@ -1838,7 +1838,7 @@
         unlockCost="0"
         tooltip="@WEAP-MP5-NAME"
         description="@WEAP-MP5-DESC"
-        img="data/models/signatures/g36_ui.dds"
+        img="data/models/signatures/mp5_ui.dds"
         animationSet="rifle"
     >
 		<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="0" />
@@ -1922,7 +1922,7 @@
         unlockCost="0"
         tooltip="@WEAP-PA15-NAME"
         description="@WEAP-PA15-DESC"
-        img="data/models/signatures/g36_ui.dds"
+        img="data/models/signatures/pa15_ui.dds"
         animationSet="pistol"
     >
 		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0" />
@@ -2009,7 +2009,7 @@
         unlockCost="0"
         tooltip="@WEAP-VSK94-NAME"
         description="@WEAP-VSK94-DESC"
-        img="data/models/signatures/g36_ui.dds"
+        img="data/models/signatures/vsk94_ui.dds"
         animationSet="rifle"
     >
 		<MobilityModifiers moveSpeedModifierPercent="-5" turnSpeedModifierPercent="0" />
