@@ -822,6 +822,36 @@
         </Ranks>
 
         <Doctrine doctrinePointsPerSquadLevel="1">
+            <Node name="Handguns_ReloadDrills" />
+            <Node name="GFL_CQCProtocols">
+                <Node name="GFL_OverwhelmingForce" />
+            </Node>
+            <Node name="GFL_RapidDeployment">
+                <Node name="GFL_WeaponTransition" />
+                <Node name="GFL_CombatEfficiency" />
+            </Node>
+            <Node name="GFL_SuppressionProtocols" />
+            <Node name="GFL_LethalPrecision" />
+
+            <Node name="GFL_ELMOCE_ImpromptuCatAndMouse" />
+            <Node name="GFL_ELMOCE_HotOilProtection" />
+            <Node name="GFL_ELMOCE_FragrantStirFry" />
+            <Node name="GFL_ELMOCE_VentureCapital" />
+            <Node name="GFL_ELMOCE_MasochisticHallucination" />
+            <Node name="GFL_ELMOCE_RighteousVerdict" />
+
+            <Node name="GFL_OptimizedPerformance" />
+            <Node name="GFL_CommunicationProtocols">
+                <Node name="GFL_AdvancedProtocols">
+                    <Node name="GFL_TacticalIntelligence" numLevels="2" />
+                    <Node name="GFL_InformationExtraction" />
+                </Node>
+            </Node>
+
+            <Node name="GFL_ELMOCE_ZoneReconnaissance" minSquadLevel="10" numLevels="2" />
+            <Node name="GFL_ELMOCE_SurvivalInstinct" minSquadLevel="10" />
+            <Node name="GFL_ELMOCE_IndependentOperators" minSquadLevel="10" />
+            <Node name="GFL_ELMOCE_VeteranMarksmanship" minSquadLevel="10" />
         </Doctrine>
     </Unit>
 </Units>

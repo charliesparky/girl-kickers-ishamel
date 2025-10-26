@@ -357,11 +357,45 @@
 
 @DOLL-PA15-NAME=FLORENCE
 @DOLL-PA15-DESC=A highly competent medical specialist Doll. In pursuit of novel thrills, Florence left G&K after it was restructured and went alone to the Yellow Zone to practice her specialty. By applying her medical expertise, she continued to grow and earned a reputation as the “Underground Doctor”.
-@WEAP-PA15-NAME=MAB PA-15
-@WEAP-PA15-DESC=The MAB PA-15 is a French semi-automatic pistol chambered in 9×19mm Parabellum. It features a 15-round magazine and served with various military and law enforcement agencies.
+@WEAP-PA15-NAME=PA-15
+@WEAP-PA15-DESC=The PA-15 is a French semi-automatic pistol chambered in 9×19mm Parabellum. It features a 15-round magazine and served with various military and law enforcement agencies.
 
 @DOLL-VSK94-NAME=NIKKETA
-@DOLL-VSK94-DESC=Walking the path of justice as Public Security Doll, acting as an older sister to protect the children she treasures, spending her monthly salary in a blink... Can someone really have that kind of mismatched personality? Fighting on the frontline of justice, Nikketa follows her path with cool confidence, but she might reveal another side of herself after meeting the Commander again. “My work means I can’t trust people easily. But Boss is an exception, because we follow the same path of justice.”
+@DOLL-VSK94-DESC=Walking the path of justice as Public Security Doll, acting as an older sister to protect the children she treasures, spending her monthly salary in a blink... Can someone really have that kind of mismatched personality? Fighting on the frontline of justice, Nikketa follows her path with cool confidence, but she might reveal another side of herself after meeting the Commander again. "My work means I can't trust people easily. But Boss is an exception, because we follow the same path of justice."
 @WEAP-VSK94-NAME=VSK-94
 @WEAP-VSK94-DESC=The VSK-94 is a Russian suppressed sniper rifle chambered in 9×39mm subsonic ammunition. Developed from the 9A-91, it features an integral suppressor and serves as a designated marksman rifle for covert operations.
 @firearm_caliber_939_name=9×39mm
+
+@doctrine_gfl_elmoce_catandmouse_name=Impromptu Cat and Mouse Game
+@doctrine_gfl_elmoce_catandmouse_descr=Peritya's relaxed predator instincts awaken on the battlefield. Her LMG suppression pins enemies like a cat toying with mice, while her deadly accuracy pounces on those frozen in fear.
+@buff_gfl_elmoce_terrifiedmouse=Hunted by Peritya
+
+@doctrine_gfl_elmoce_hotoil_name=Hot Oil Protection
+@doctrine_gfl_elmoce_hotoil_descr=The kitchen is her new battlefield. After eliminating an enemy, Sabrina's combat adrenaline surges like hot oil splattering from a pan, providing temporary protection and fueling aggressive follow-up attacks.
+@buff_gfl_elmoce_oilshield=Protected by Hot Oil
+
+@doctrine_gfl_elmoce_stirfry_name=Fragrant Stir-Fry
+@doctrine_gfl_elmoce_stirfry_descr=A cheerful hunter who feeds settlements with delicacies from the Yellow Zone. Qiuhua's optimistic presence and well-prepared meals boost squad morale, while her hunting skills make her deadly with a shotgun.
+@buff_gfl_elmoce_wellfed=Well Fed
+
+@doctrine_gfl_elmoce_venturecapital_name=Venture Capital
+@doctrine_gfl_elmoce_venturecapital_descr=An ambitious Underground Broker invests in her team's survival. Peri's resourcefulness provides the entire squad with improved protective gear and resilience, proving that strength matters more than size.
+
+@doctrine_gfl_elmoce_masochistic_name=Masochistic Hallucination
+@doctrine_gfl_elmoce_masochistic_descr=Pain comes hand in hand with pleasure, and the boundary between the real and the surreal can become hard to discern. When wounded, Florence's thrill-seeking nature awakens with terrifying intensity, while her unhinged combat behavior disturbs nearby enemies.
+@buff_gfl_elmoce_hallucinating=Disturbed by Florence
+
+@doctrine_gfl_elmoce_righteousverdict_name=Righteous Verdict
+@doctrine_gfl_elmoce_righteousverdict_descr=A righteous Doll firmly believes that no sin can be hidden, and that villains will reap what they sow. Nikketa's path of justice is delivered through her rifle with lethal precision and unwavering confidence.
+
+@doctrine_gfl_elmoce_zonerecon_name=Zone Reconnaissance
+@doctrine_gfl_elmoce_zonerecon_descr=Wandering the contaminated Yellow Zones has taught these dolls the common patrol patterns and hiding spots. Their experience reveals enemy positions at mission start.
+
+@doctrine_gfl_elmoce_survivalinstinct_name=Survival Instinct
+@doctrine_gfl_elmoce_survivalinstinct_descr=Hardened by the harsh contaminated lands, these survivors don't go down easily. Wounds only make them fight harder, driven by an unshakeable will to live.
+
+@doctrine_gfl_elmoce_independent_name=Independent Operators
+@doctrine_gfl_elmoce_independent_descr=Used to operating alone in the wilderness, these wanderers maintain peak performance without relying on squad cohesion. Self-sufficient and deadly.
+
+@doctrine_gfl_elmoce_veteranmarks_name=Veteran Marksmanship
+@doctrine_gfl_elmoce_veteranmarks_descr=Years of combat experience across diverse environments have honed their shooting skills. Superior accuracy and lethality at all ranges with any weapon.
