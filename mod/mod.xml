@@ -38,6 +38,7 @@ This mod imports tactical dolls from Girls&apos; Frontline 2: Exilium as playabl
 
 [b]Groza Squad:[/b] Groza, Nemesis, Krolik, Colphne, Vepley
 
+
 [b]Elmo Combined Echelon:[/b] Peritya, Sabrina, Qiuhua, Peri, Florence, Nikketa
 
 [i]Note: Only dolls currently available in GFL2 are/will be included.[/i]
@@ -105,9 +106,15 @@ Special thanks to:
 [*] Everyone giving suggestions and reporting bugs
 
 [/list]"
-    changeNotes="Fix Sabrina not having equipment.
-Fix WA2000 not able to add iron sights.
-Fix VSK94 not being able to be equipped."
+    changeNotes="Whatever exists in creation exists without my knowledge exists without my consent.
+
+ENDFIELD TOMORROW !!!!!
+
+---
+
+Add voice lines for all units.
+- If you speak Japanese... I&apos;m sorry, I tried my best but it&apos;s hard choosing the correct voice line to use when you don&apos;t know what the FUCK they&apos;re saying.
+Fix PA-15 not able to equip sights."
     languageMod=""
     tags="Playable Units,Equipment,UI"
     ugcId="3580762170"
