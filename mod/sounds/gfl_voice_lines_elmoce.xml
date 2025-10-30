@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='utf-8' ?>
 <Sounds>
   <Pack name="Peritya-Voice" channel="voice">
     <Sound ID="VOX_DYING">
       <Path
-                name="data/sounds/voice/Peritya/VO_Peritya_Series_HittedLast_4.wav"
+                name="data/sounds/voice/Peritya/Series_HittedLast__VO_Peritya_Series_Tone_Negative_002.wav"
             />
     </Sound>
     <Sound ID="VOX_GEAR_FLASH">
@@ -21,7 +22,7 @@
     </Sound>
     <Sound ID="VOX_INJURED">
       <Path
-                name="data/sounds/voice/Peritya/VO_Peritya_Series_HittedLast_4.wav"
+                name="data/sounds/voice/Peritya/Series_HittedLast__VO_Peritya_Series_Tone_Negative_002.wav"
             />
     </Sound>
     <Sound ID="VOX_RELOAD">
@@ -31,34 +32,48 @@
     <Sound ID="VOX_TRPR_BOMB_DEFUSING">
     </Sound>
     <Sound ID="VOX_TRPR_BOMB_LOCATED">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Up_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CAN_I_SHOOT">
     </Sound>
     <Sound ID="VOX_TRPR_CANT">
     </Sound>
     <Sound ID="VOX_TRPR_CIV_DOWN">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Lose__VO_Peritya_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Win.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Win__VO_Peritya_Single_Win_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
       <Path
-                name="data/sounds/voice/Peritya/VO_Peritya_Series_Battle_Start.wav"
+                name="data/sounds/voice/Peritya/Series_Battle_Start__VO_Peritya_Series_Tone_Positive_009.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Kill.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Kill__VO_Peritya_Single_Kill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Lose__VO_Peritya_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYES_HOSTAGE">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Up_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Up_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET_QUIET">
     </Sound>
@@ -72,7 +87,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_GO_GO_GO">
       <Path
-                name="data/sounds/voice/Peritya/VO_Peritya_Series_Battle_Start_3.wav"
+                name="data/sounds/voice/Peritya/Series_Battle_Start__VO_Peritya_Series_Tone_Positive_009.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_GO_LOUD">
@@ -80,35 +95,43 @@
     <Sound ID="VOX_TRPR_HANDCUFF">
     </Sound>
     <Sound ID="VOX_TRPR_HOLDING">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Up_002.wav" />
+      <Path name="data/sounds/voice/Peritya/Series_Up_002.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_DOWN">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Lose__VO_Peritya_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_SEC">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Up_002.wav" />
+      <Path name="data/sounds/voice/Peritya/Series_Up_002.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_HVT_RUNNING">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Up_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGOFF">
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGON">
     </Sound>
     <Sound ID="VOX_TRPR_MANDOWN">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Lose__VO_Peritya_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_MATCHSPEEDON">
     </Sound>
     <Sound ID="VOX_TRPR_MOVING">
       <Path
-                name="data/sounds/voice/Peritya/VO_Peritya_Series_Battle_Start.wav"
+                name="data/sounds/voice/Peritya/Series_Battle_Start__VO_Peritya_Series_Tone_Positive_009.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_NOTANGOS">
     </Sound>
     <Sound ID="VOX_TRPR_ONTARGET">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Ultimate.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Chosen__Move_Start__Set_Fall__Tone_Pos_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_ON_ALPHA">
     </Sound>
@@ -130,14 +153,18 @@
     </Sound>
     <Sound ID="VOX_TRPR_PINNED_DOWN">
       <Path
-                name="data/sounds/voice/Peritya/VO_Peritya_Series_HittedLast_4.wav"
+                name="data/sounds/voice/Peritya/Series_HittedLast__VO_Peritya_Series_Tone_Negative_002.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_PUMPUP">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Skill01.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Skill01__VO_Peritya_Single_Skill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_ROGER">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Chosen.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Chosen__Move_Start__Set_Fall__Tone_Pos_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_SILENTOFF">
     </Sound>
@@ -146,60 +173,80 @@
     <Sound ID="VOX_TRPR_SUSP_SEC">
     </Sound>
     <Sound ID="VOX_TRPR_TANGODOWN">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Kill.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Kill__VO_Peritya_Single_Kill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TANGOS">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Up_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TARGET_SEC">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Up_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TIME_TO_GO">
       <Path
-                name="data/sounds/voice/Peritya/VO_Peritya_Series_Battle_Start_2.wav"
+                name="data/sounds/voice/Peritya/Series_Battle_Start__VO_Peritya_Series_Tone_Positive_009.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_VIP_DEAD">
-      <Path name="data/sounds/voice/Peritya/VO_Peritya_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Peritya/Series_Lose__VO_Peritya_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_WAIT">
     </Sound>
     <Sound ID="VOX_WARN_GRENADE">
       <Path
-                name="data/sounds/voice/Peritya/VO_Peritya_Series_HittedLast_4.wav"
+                name="data/sounds/voice/Peritya/Series_HittedLast__VO_Peritya_Series_Tone_Negative_002.wav"
             />
     </Sound>
     <Sound ID="VOX_WARN_RPG">
       <Path
-                name="data/sounds/voice/Peritya/VO_Peritya_Series_HittedLast_4.wav"
+                name="data/sounds/voice/Peritya/Series_HittedLast__VO_Peritya_Series_Tone_Negative_002.wav"
             />
     </Sound>
   </Pack>
   <Pack name="Sabrina-Voice" channel="voice">
     <Sound ID="VOX_DYING">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_HittedLast.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_HittedLast__VO_Sabrina_Series_Tone_Negative_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_GEAR_FLASH">
     </Sound>
     <Sound ID="VOX_GEAR_FRAG">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Skill02.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Skill02__VO_Sabrina_Single_Skill_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_GEAR_LAUNCHER">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Skill02.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Skill02__VO_Sabrina_Single_Skill_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_GEAR_MOLOTOV">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Skill02.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Skill02__VO_Sabrina_Single_Skill_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_GEAR_ROCKET">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Skill02.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Skill02__VO_Sabrina_Single_Skill_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_GEAR_SMOKE">
     </Sound>
     <Sound ID="VOX_GEAR_STINGER">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Skill02.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Skill02__VO_Sabrina_Single_Skill_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_INJURED">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Hitted_2.wav" />
+      <Path name="data/sounds/voice/Sabrina/Series_Hitted.wav" />
     </Sound>
     <Sound ID="VOX_RELOAD">
     </Sound>
@@ -208,37 +255,47 @@
     <Sound ID="VOX_TRPR_BOMB_DEFUSING">
     </Sound>
     <Sound ID="VOX_TRPR_BOMB_LOCATED">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Battle_Start__VO_Sabrina_Series_Tone_Positive_010.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CAN_I_SHOOT">
     </Sound>
     <Sound ID="VOX_TRPR_CANT">
     </Sound>
     <Sound ID="VOX_TRPR_CIV_DOWN">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Lose__VO_Sabrina_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Win.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Win__VO_Sabrina_Single_Win_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
       <Path
-                name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Battle_Start.wav"
+                name="data/sounds/voice/Sabrina/Series_Battle_Start__Chosen__Move_Start__Set_Click__Tone_Pos_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
       <Path
-                name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Battle_Start_5.wav"
+                name="data/sounds/voice/Sabrina/Series_Battle_Start__Chosen__Move_Start__Set_Click__Tone_Pos_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Lose__VO_Sabrina_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYES_HOSTAGE">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Battle_Start__VO_Sabrina_Series_Tone_Positive_010.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET">
       <Path
-                name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Battle_Start_3.wav"
+                name="data/sounds/voice/Sabrina/Series_Battle_Start__Chosen__Move_Start__Set_Click__Tone_Pos_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET_QUIET">
@@ -253,7 +310,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_GO_GO_GO">
       <Path
-                name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Battle_Start.wav"
+                name="data/sounds/voice/Sabrina/Series_Battle_Start__Chosen__Move_Start__Set_Click__Tone_Pos_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_GO_LOUD">
@@ -261,36 +318,42 @@
     <Sound ID="VOX_TRPR_HANDCUFF">
     </Sound>
     <Sound ID="VOX_TRPR_HOLDING">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Up_001.wav" />
+      <Path name="data/sounds/voice/Sabrina/Series_Up_001.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_DOWN">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Lose__VO_Sabrina_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_SEC">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Up_001.wav" />
+      <Path name="data/sounds/voice/Sabrina/Series_Up_001.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_HVT_RUNNING">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Tone_Positive_008.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGOFF">
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGON">
     </Sound>
     <Sound ID="VOX_TRPR_MANDOWN">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Lose__VO_Sabrina_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_MATCHSPEEDON">
     </Sound>
     <Sound ID="VOX_TRPR_MOVING">
       <Path
-                name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Battle_Start_2.wav"
+                name="data/sounds/voice/Sabrina/Series_Battle_Start__Chosen__Move_Start__Set_Click__Tone_Pos_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_NOTANGOS">
     </Sound>
     <Sound ID="VOX_TRPR_ONTARGET">
       <Path
-                name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Battle_Start_3.wav"
+                name="data/sounds/voice/Sabrina/Series_Battle_Start__Chosen__Move_Start__Set_Click__Tone_Pos_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_ON_ALPHA">
@@ -312,13 +375,15 @@
     <Sound ID="VOX_TRPR_PASS_DELTA">
     </Sound>
     <Sound ID="VOX_TRPR_PINNED_DOWN">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Hitted_2.wav" />
+      <Path name="data/sounds/voice/Sabrina/Series_Hitted.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_PUMPUP">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Skill01.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Skill01__VO_Sabrina_Single_Skill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_ROGER">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Up_004.wav" />
+      <Path name="data/sounds/voice/Sabrina/Series_Up_004.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_SILENTOFF">
     </Sound>
@@ -327,34 +392,48 @@
     <Sound ID="VOX_TRPR_SUSP_SEC">
     </Sound>
     <Sound ID="VOX_TRPR_TANGODOWN">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Kill.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Kill__VO_Sabrina_Single_Kill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TANGOS">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Battle_Start__VO_Sabrina_Series_Tone_Positive_010.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TARGET_SEC">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Up_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TIME_TO_GO">
       <Path
-                name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Battle_Start.wav"
+                name="data/sounds/voice/Sabrina/Series_Battle_Start__Chosen__Move_Start__Set_Click__Tone_Pos_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_VIP_DEAD">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Lose__VO_Sabrina_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_WAIT">
     </Sound>
     <Sound ID="VOX_WARN_GRENADE">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Ultimate.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Ultimate__VO_Sabrina_Single_Ultimate_SSR_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_WARN_RPG">
-      <Path name="data/sounds/voice/Sabrina/VO_Sabrina_Series_Ultimate.wav" />
+      <Path
+                name="data/sounds/voice/Sabrina/Series_Ultimate__VO_Sabrina_Single_Ultimate_SSR_001.wav"
+            />
     </Sound>
   </Pack>
   <Pack name="Qiuhua-Voice" channel="voice">
     <Sound ID="VOX_DYING">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Die.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Die__VO_Qiuhua_Series_Tone_Negative_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_GEAR_FLASH">
     </Sound>
@@ -371,7 +450,9 @@
     <Sound ID="VOX_GEAR_STINGER">
     </Sound>
     <Sound ID="VOX_INJURED">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Hitted_3.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Hitted__VO_Qiuhua_Series_HittedLast.wav"
+            />
     </Sound>
     <Sound ID="VOX_RELOAD">
     </Sound>
@@ -380,32 +461,48 @@
     <Sound ID="VOX_TRPR_BOMB_DEFUSING">
     </Sound>
     <Sound ID="VOX_TRPR_BOMB_LOCATED">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Set_Click__VO_Qiuhua_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CAN_I_SHOOT">
     </Sound>
     <Sound ID="VOX_TRPR_CANT">
     </Sound>
     <Sound ID="VOX_TRPR_CIV_DOWN">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Lose__VO_Qiuhua_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Win.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Win__VO_Qiuhua_Single_Win_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Set_Fall.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Set_Fall__VO_Qiuhua_Series_Tone_Positive_005.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Kill.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Kill__VO_Qiuhua_Single_Kill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Lose__VO_Qiuhua_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYES_HOSTAGE">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Set_Click__VO_Qiuhua_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Set_Click__VO_Qiuhua_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET_QUIET">
     </Sound>
@@ -418,40 +515,52 @@
     <Sound ID="VOX_TRPR_GETDOWN">
     </Sound>
     <Sound ID="VOX_TRPR_GO_GO_GO">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Battle_Start.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Battle_Start__VO_Qiuhua_Series_Tone_Positive_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_GO_LOUD">
     </Sound>
     <Sound ID="VOX_TRPR_HANDCUFF">
     </Sound>
     <Sound ID="VOX_TRPR_HOLDING">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Up_001.wav" />
+      <Path name="data/sounds/voice/Qiuhua/Series_Up_001.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_DOWN">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Lose__VO_Qiuhua_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_SEC">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Up_001.wav" />
+      <Path name="data/sounds/voice/Qiuhua/Series_Up_001.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_HVT_RUNNING">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Chosen_Auto__VO_Qiuhua_Series_Tone_Positive_007.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGOFF">
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGON">
     </Sound>
     <Sound ID="VOX_TRPR_MANDOWN">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Lose__VO_Qiuhua_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_MATCHSPEEDON">
     </Sound>
     <Sound ID="VOX_TRPR_MOVING">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Set_Fall.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Set_Fall__VO_Qiuhua_Series_Tone_Positive_005.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_NOTANGOS">
     </Sound>
     <Sound ID="VOX_TRPR_ONTARGET">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Chosen_Auto__VO_Qiuhua_Series_Tone_Positive_007.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_ON_ALPHA">
     </Sound>
@@ -472,13 +581,19 @@
     <Sound ID="VOX_TRPR_PASS_DELTA">
     </Sound>
     <Sound ID="VOX_TRPR_PINNED_DOWN">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Hitted_3.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Hitted__VO_Qiuhua_Series_HittedLast.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_PUMPUP">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Skill01.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Skill01__VO_Qiuhua_Single_Skill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_ROGER">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Chosen_Auto.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Chosen_Auto__VO_Qiuhua_Series_Tone_Positive_007.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_SILENTOFF">
     </Sound>
@@ -487,32 +602,48 @@
     <Sound ID="VOX_TRPR_SUSP_SEC">
     </Sound>
     <Sound ID="VOX_TRPR_TANGODOWN">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Kill.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Kill__VO_Qiuhua_Single_Kill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TANGOS">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Set_Click__VO_Qiuhua_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TARGET_SEC">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Up_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TIME_TO_GO">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Battle_Start.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Battle_Start__VO_Qiuhua_Series_Tone_Positive_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_VIP_DEAD">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Lose__VO_Qiuhua_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_WAIT">
     </Sound>
     <Sound ID="VOX_WARN_GRENADE">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Hitted_3.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Hitted__VO_Qiuhua_Series_HittedLast.wav"
+            />
     </Sound>
     <Sound ID="VOX_WARN_RPG">
-      <Path name="data/sounds/voice/Qiuhua/VO_Qiuhua_Series_Hitted_3.wav" />
+      <Path
+                name="data/sounds/voice/Qiuhua/Series_Hitted__VO_Qiuhua_Series_HittedLast.wav"
+            />
     </Sound>
   </Pack>
   <Pack name="Peri-Voice" channel="voice">
     <Sound ID="VOX_DYING">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Die.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Die__VO_Peri_Series_Tone_Negative_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_GEAR_FLASH">
     </Sound>
@@ -529,7 +660,9 @@
     <Sound ID="VOX_GEAR_STINGER">
     </Sound>
     <Sound ID="VOX_INJURED">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Hitted_3.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Hitted__VO_Peri_Series_HittedLast.wav"
+            />
     </Sound>
     <Sound ID="VOX_RELOAD">
     </Sound>
@@ -538,32 +671,48 @@
     <Sound ID="VOX_TRPR_BOMB_DEFUSING">
     </Sound>
     <Sound ID="VOX_TRPR_BOMB_LOCATED">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Set_Click__VO_Peri_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CAN_I_SHOOT">
     </Sound>
     <Sound ID="VOX_TRPR_CANT">
     </Sound>
     <Sound ID="VOX_TRPR_CIV_DOWN">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Lose__VO_Peri_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Win.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Win__VO_Peri_Single_Win_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Set_Fall.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Set_Fall__VO_Peri_Series_Tone_Positive_005.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Kill.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Kill__VO_Peri_Single_Kill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Lose__VO_Peri_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYES_HOSTAGE">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Set_Click__VO_Peri_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Set_Click__VO_Peri_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET_QUIET">
     </Sound>
@@ -576,40 +725,52 @@
     <Sound ID="VOX_TRPR_GETDOWN">
     </Sound>
     <Sound ID="VOX_TRPR_GO_GO_GO">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Battle_Start.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Battle_Start__VO_Peri_Series_Tone_Positive_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_GO_LOUD">
     </Sound>
     <Sound ID="VOX_TRPR_HANDCUFF">
     </Sound>
     <Sound ID="VOX_TRPR_HOLDING">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Up_002.wav" />
+      <Path name="data/sounds/voice/Peri/Series_Up_002.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_DOWN">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Lose__VO_Peri_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_SEC">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Up_002.wav" />
+      <Path name="data/sounds/voice/Peri/Series_Up_002.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_HVT_RUNNING">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Set_Click__VO_Peri_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGOFF">
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGON">
     </Sound>
     <Sound ID="VOX_TRPR_MANDOWN">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Lose__VO_Peri_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_MATCHSPEEDON">
     </Sound>
     <Sound ID="VOX_TRPR_MOVING">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Battle_Start.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Battle_Start__VO_Peri_Series_Tone_Positive_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_NOTANGOS">
     </Sound>
     <Sound ID="VOX_TRPR_ONTARGET">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Set_Click__VO_Peri_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_ON_ALPHA">
     </Sound>
@@ -630,15 +791,17 @@
     <Sound ID="VOX_TRPR_PASS_DELTA">
     </Sound>
     <Sound ID="VOX_TRPR_PINNED_DOWN">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Hitted_3.wav" />
-    </Sound>
-    <Sound ID="VOX_TRPR_PUMPUP">
       <Path
-                name="data/sounds/voice/Peri/VO_Peri_Series_Tone_Positive_001.wav"
+                name="data/sounds/voice/Peri/Series_Hitted__VO_Peri_Series_HittedLast.wav"
             />
     </Sound>
+    <Sound ID="VOX_TRPR_PUMPUP">
+      <Path name="data/sounds/voice/Peri/Series_Tone_Positive_001.wav" />
+    </Sound>
     <Sound ID="VOX_TRPR_ROGER">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Chosen.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Chosen__VO_Peri_Series_Tone_Positive_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_SILENTOFF">
     </Sound>
@@ -647,32 +810,48 @@
     <Sound ID="VOX_TRPR_SUSP_SEC">
     </Sound>
     <Sound ID="VOX_TRPR_TANGODOWN">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Kill.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Kill__VO_Peri_Single_Kill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TANGOS">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Set_Click__VO_Peri_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TARGET_SEC">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Set_Click__VO_Peri_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TIME_TO_GO">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Battle_Start.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Battle_Start__VO_Peri_Series_Tone_Positive_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_VIP_DEAD">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Lose__VO_Peri_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_WAIT">
     </Sound>
     <Sound ID="VOX_WARN_GRENADE">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Shield_Broken.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Shield_Broken__VO_Peri_Series_Tone_Negative_003.wav"
+            />
     </Sound>
     <Sound ID="VOX_WARN_RPG">
-      <Path name="data/sounds/voice/Peri/VO_Peri_Series_Shield_Broken.wav" />
+      <Path
+                name="data/sounds/voice/Peri/Series_Shield_Broken__VO_Peri_Series_Tone_Negative_003.wav"
+            />
     </Sound>
   </Pack>
   <Pack name="Florence-Voice" channel="voice">
     <Sound ID="VOX_DYING">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Die.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Die__VO_Florence_Series_Tone_Negative_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_GEAR_FLASH">
     </Sound>
@@ -689,7 +868,9 @@
     <Sound ID="VOX_GEAR_STINGER">
     </Sound>
     <Sound ID="VOX_INJURED">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Hitted_3.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Hitted__VO_Florence_Series_HittedLast.wav"
+            />
     </Sound>
     <Sound ID="VOX_RELOAD">
     </Sound>
@@ -698,34 +879,48 @@
     <Sound ID="VOX_TRPR_BOMB_DEFUSING">
     </Sound>
     <Sound ID="VOX_TRPR_BOMB_LOCATED">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Set_Click__VO_Florence_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CAN_I_SHOOT">
     </Sound>
     <Sound ID="VOX_TRPR_CANT">
     </Sound>
     <Sound ID="VOX_TRPR_CIV_DOWN">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Lose__VO_Florence_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Win.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Win__VO_Florence_Single_Win_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
       <Path
-                name="data/sounds/voice/Florence/VO_Florence_Series_Battle_Start.wav"
+                name="data/sounds/voice/Florence/Series_Battle_Start__VO_Florence_Series_Tone_Positive_002.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Kill.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Kill__VO_Florence_Single_Kill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Lose__VO_Florence_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYES_HOSTAGE">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Set_Click__VO_Florence_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Set_Click__VO_Florence_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET_QUIET">
     </Sound>
@@ -739,7 +934,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_GO_GO_GO">
       <Path
-                name="data/sounds/voice/Florence/VO_Florence_Series_Battle_Start.wav"
+                name="data/sounds/voice/Florence/Series_Battle_Start__VO_Florence_Series_Tone_Positive_002.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_GO_LOUD">
@@ -747,33 +942,43 @@
     <Sound ID="VOX_TRPR_HANDCUFF">
     </Sound>
     <Sound ID="VOX_TRPR_HOLDING">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Up_001.wav" />
+      <Path name="data/sounds/voice/Florence/Series_Up_001.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_DOWN">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Lose__VO_Florence_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_SEC">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Up_001.wav" />
+      <Path name="data/sounds/voice/Florence/Series_Up_001.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_HVT_RUNNING">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Set_Click__VO_Florence_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGOFF">
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGON">
     </Sound>
     <Sound ID="VOX_TRPR_MANDOWN">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Lose__VO_Florence_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_MATCHSPEEDON">
     </Sound>
     <Sound ID="VOX_TRPR_MOVING">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Set_Fall.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Set_Fall__VO_Florence_Series_Tone_Positive_005.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_NOTANGOS">
     </Sound>
     <Sound ID="VOX_TRPR_ONTARGET">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Set_Click__VO_Florence_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_ON_ALPHA">
     </Sound>
@@ -794,13 +999,19 @@
     <Sound ID="VOX_TRPR_PASS_DELTA">
     </Sound>
     <Sound ID="VOX_TRPR_PINNED_DOWN">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Hitted_3.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Hitted__VO_Florence_Series_HittedLast.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_PUMPUP">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Skill01.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Skill01__VO_Florence_Single_Skill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_ROGER">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Attack.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Attack__VO_Florence_Series_Tone_Positive_003.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_SILENTOFF">
     </Sound>
@@ -809,34 +1020,48 @@
     <Sound ID="VOX_TRPR_SUSP_SEC">
     </Sound>
     <Sound ID="VOX_TRPR_TANGODOWN">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Kill.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Kill__VO_Florence_Single_Kill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TANGOS">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Set_Click__VO_Florence_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TARGET_SEC">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Set_Click__VO_Florence_Series_Tone_Positive_004.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TIME_TO_GO">
       <Path
-                name="data/sounds/voice/Florence/VO_Florence_Series_Battle_Start.wav"
+                name="data/sounds/voice/Florence/Series_Battle_Start__VO_Florence_Series_Tone_Positive_002.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_VIP_DEAD">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Lose__VO_Florence_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_WAIT">
     </Sound>
     <Sound ID="VOX_WARN_GRENADE">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Hitted_3.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Hitted__VO_Florence_Series_HittedLast.wav"
+            />
     </Sound>
     <Sound ID="VOX_WARN_RPG">
-      <Path name="data/sounds/voice/Florence/VO_Florence_Series_Hitted_3.wav" />
+      <Path
+                name="data/sounds/voice/Florence/Series_Hitted__VO_Florence_Series_HittedLast.wav"
+            />
     </Sound>
   </Pack>
   <Pack name="Nikketa-Voice" channel="voice">
     <Sound ID="VOX_DYING">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Die.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Die__VO_Nikketa_Series_Dying__VO_Nikketa_Series_Tone_Negative_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_GEAR_FLASH">
     </Sound>
@@ -853,7 +1078,9 @@
     <Sound ID="VOX_GEAR_STINGER">
     </Sound>
     <Sound ID="VOX_INJURED">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Hitted.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Hitted__VO_Nikketa_Series_HittedLast__VO_Nikketa_Series_Shield_Broken.wav"
+            />
     </Sound>
     <Sound ID="VOX_RELOAD">
     </Sound>
@@ -862,39 +1089,53 @@
     <Sound ID="VOX_TRPR_BOMB_DEFUSING">
     </Sound>
     <Sound ID="VOX_TRPR_BOMB_LOCATED">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Attack.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Attack__VO_Nikketa_Series_Tone_Positive_007.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CAN_I_SHOOT">
     </Sound>
     <Sound ID="VOX_TRPR_CANT">
     </Sound>
     <Sound ID="VOX_TRPR_CIV_DOWN">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Lose__VO_Nikketa_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Win.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Win__VO_Nikketa_Single_Win_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Set_Fall.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Set_Fall__VO_Nikketa_Series_Tone_Positive_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Kill.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Kill__VO_Nikketa_Single_Kill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Lose__VO_Nikketa_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYES_HOSTAGE">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Attack.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Attack__VO_Nikketa_Series_Tone_Positive_007.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Attack.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Attack__VO_Nikketa_Series_Tone_Positive_007.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_EYESONTARGET_QUIET">
     </Sound>
     <Sound ID="VOX_TRPR_FREEZE">
-      <Path
-                name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Tone_Positive_002.wav"
-            />
+      <Path name="data/sounds/voice/Nikketa/Series_Tone_Positive_002.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_GEAR_CHARGE_PLACE">
     </Sound>
@@ -903,41 +1144,59 @@
     <Sound ID="VOX_TRPR_GETDOWN">
     </Sound>
     <Sound ID="VOX_TRPR_GO_GO_GO">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Hit__VO_Nikketa_Single_Hit_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_GO_LOUD">
     </Sound>
     <Sound ID="VOX_TRPR_HANDCUFF">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Set_Click.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Set_Click__VO_Nikketa_Series_Tone_Positive_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_HOLDING">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Set_Fall.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Set_Fall__VO_Nikketa_Series_Tone_Positive_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_DOWN">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Lose__VO_Nikketa_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_HOST_SEC">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Set_Fall.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Set_Fall__VO_Nikketa_Series_Tone_Positive_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_HVT_RUNNING">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Attack.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Attack__VO_Nikketa_Series_Tone_Positive_007.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGOFF">
     </Sound>
     <Sound ID="VOX_TRPR_KEEPMOVINGON">
     </Sound>
     <Sound ID="VOX_TRPR_MANDOWN">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Lose__VO_Nikketa_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_MATCHSPEEDON">
     </Sound>
     <Sound ID="VOX_TRPR_MOVING">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Hit__VO_Nikketa_Single_Hit_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_NOTANGOS">
     </Sound>
     <Sound ID="VOX_TRPR_ONTARGET">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Attack.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Attack__VO_Nikketa_Series_Tone_Positive_007.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_ON_ALPHA">
     </Sound>
@@ -958,13 +1217,19 @@
     <Sound ID="VOX_TRPR_PASS_DELTA">
     </Sound>
     <Sound ID="VOX_TRPR_PINNED_DOWN">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Hitted.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Hitted__VO_Nikketa_Series_HittedLast__VO_Nikketa_Series_Shield_Broken.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_PUMPUP">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Skill02.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Skill02__VO_Nikketa_Single_Skill_002.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_ROGER">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Set_Fall.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Set_Fall__VO_Nikketa_Series_Tone_Positive_006.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_SILENTOFF">
     </Sound>
@@ -973,27 +1238,41 @@
     <Sound ID="VOX_TRPR_SUSP_SEC">
     </Sound>
     <Sound ID="VOX_TRPR_TANGODOWN">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Kill.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Kill__VO_Nikketa_Single_Kill_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TANGOS">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Attack.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Attack__VO_Nikketa_Series_Tone_Positive_007.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TARGET_SEC">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Attack.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Attack__VO_Nikketa_Series_Tone_Positive_007.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_TIME_TO_GO">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Hit.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Hit__VO_Nikketa_Single_Hit_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_VIP_DEAD">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Lose.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Lose__VO_Nikketa_Single_Lose_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_TRPR_WAIT">
     </Sound>
     <Sound ID="VOX_WARN_GRENADE">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Ultimate.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Ultimate__VO_Nikketa_Single_Ultimate_SSR_001.wav"
+            />
     </Sound>
     <Sound ID="VOX_WARN_RPG">
-      <Path name="data/sounds/voice/Nikketa/VO_Nikketa_Series_Ultimate.wav" />
+      <Path
+                name="data/sounds/voice/Nikketa/Series_Ultimate__VO_Nikketa_Single_Ultimate_SSR_001.wav"
+            />
     </Sound>
   </Pack>
 </Sounds>

@@ -827,7 +827,7 @@
                 name="CAFE-WA2000"
                 portrait="data/textures/portraits/gfl_wa2000.dds"
                 gender="0"
-                voicePack="Makiatto-Voice"
+                voicePack="Macqiato-Voice"
             />
 			<FOV degrees="135" distanceMeters="999" eyeRadiusMeters="1" />
 			<Brain suppressionRecovery="80.0" />
@@ -867,7 +867,7 @@
                 name="CAFE-WA2000"
                 portrait="data/textures/portraits/gfl_wa2000.dds"
                 gender="0"
-                voicePack="Makiatto-Voice"
+                voicePack="Macqiato-Voice"
             />
 			<FOV degrees="135" distanceMeters="999" eyeRadiusMeters="1" />
 			<Brain suppressionRecovery="80.0" />

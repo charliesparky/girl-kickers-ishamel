@@ -2,8 +2,8 @@
 """Validate that all voice files referenced in XML actually exist"""
 
 import re
-from pathlib import Path
 import sys
+from pathlib import Path
 
 # All valid sound IDs
 VALID_SOUND_IDS = {
@@ -127,6 +127,7 @@ def validate_voice_xml(xml_file):
     paths = re.findall(r'name="(data/sounds/voice/[^"]+)"', content)
 
     missing_files = []
+    long_paths = []
     checked = set()
 
     for path in paths:
@@ -134,11 +135,24 @@ def validate_voice_xml(xml_file):
             continue
         checked.add(path)
 
+        # Check path length (124 character limit)
+        if len(path) > 124:
+            long_paths.append((path, len(path)))
+
         # Convert data/sounds/voice/X to mod/sounds/voice/X
         local_path = path.replace("data/", "mod/")
 
         if not Path(local_path).exists():
             missing_files.append((path, local_path))
+
+    if long_paths:
+        print(
+            f"\n  ❌ Found {len(long_paths)} file paths exceeding 124 character limit:"
+        )
+        for path, length in long_paths:
+            print(f"    - {path}")
+            print(f"      (length: {length} chars, exceeds limit by {length - 124})")
+        all_valid = False
 
     if missing_files:
         print(f"\n  ❌ Found {len(missing_files)} missing voice files:")
@@ -171,5 +185,5 @@ if __name__ == "__main__":
         print("\n✓ All voice files validated successfully!")
         sys.exit(0)
     else:
-        print("\n❌ Some voice files are missing!")
+        print("\n❌ Some voice files are invalid!")
         sys.exit(1)
