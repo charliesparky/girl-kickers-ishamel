@@ -35,3 +35,7 @@ Note: On Windows 🤮, you may need to run the command prompt as Administrator.
 ### Development Scripts
 
 See [scripts/README.md](scripts/README.md) for information about the Python utilities for processing voice files and other development tasks.
+
+### Development Tools
+
+See [tools/README.md](tools/README.md) for information about asset extraction and 3D modeling tools.

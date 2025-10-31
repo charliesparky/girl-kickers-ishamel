@@ -25,3 +25,20 @@ wine "tools/Asset Studio/AssetStudio.GUI.exe"
 ```
 
 If using Windows 🤮, you can probably just run the `.exe` (I think).
+
+## KHM Importer for 3DS Max
+
+`KHM_Importer.ms` is a MAXScript plugin that imports Door Kickers 2 model files (.khm) into 3DS Max (only tested on version 2026).
+
+### Setup
+
+Copy `KHM_Importer.ms` to `C:\Program Files\Autodesk\3ds Max 2026\scripts\` (if you know how to run 3DS Max on Linux, PLEASE TELL ME I FUCKING HATE WINDOWS 🤮).
+
+### Usage
+
+1. Open 3DS Max 2026
+2. Go to **Scripting > Run Script**
+3. Select `KHM_Importer.ms`
+4. Choose a `.khm` file to import
+
+The script will import the model with all bones (as generic bones, I don't know how to make biped bones), meshes, skin weights, helpers, and collision objects. Depending on how complex the model is, this may take a while.
