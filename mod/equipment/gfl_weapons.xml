@@ -2100,7 +2100,7 @@
         unlockCost="0"
         tooltip="@WEAP-DP12-NAME"
         description="@WEAP-DP12-DESC"
-        img="data/models/signatures/g36_ui.dds"
+        img="data/models/signatures/dp12_ui.dds"
         animationSet="shotgun_pump"
     >
         <MobilityModifiers
@@ -2187,7 +2187,7 @@
         unlockCost="0"
         tooltip="@WEAP-LEWIS-NAME"
         description="@WEAP-LEWIS-DESC"
-        img="data/models/signatures/g36_ui.dds"
+        img="data/models/signatures/lewis_ui.dds"
         animationSet="rifle"
     >
         <MobilityModifiers

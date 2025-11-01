@@ -992,7 +992,7 @@
                 name="ELMOCE-DP12"
                 portrait="data/textures/portraits/gfl_dp12.dds"
                 gender="0"
-                voicePack="Nikketa-Voice"
+                voicePack="Helen-Voice"
             />
             <FOV degrees="135" distanceMeters="999" eyeRadiusMeters="0.6" />
             <Brain suppressionRecovery="70" />
@@ -1033,7 +1033,7 @@
                 name="ELMOCE-LEWIS"
                 portrait="data/textures/portraits/gfl_lewis.dds"
                 gender="0"
-                voicePack="Nikketa-Voice"
+                voicePack="Lewis-Voice"
             />
             <FOV degrees="135" distanceMeters="999" eyeRadiusMeters="0.6" />
             <Brain suppressionRecovery="70" />

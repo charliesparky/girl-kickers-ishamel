@@ -1,0 +1,142 @@
+# Voice Line Translations for Helen
+# Generated automatically using OpenAI Whisper
+# Total files: 46
+
+Lobby_Welcome__VO_Helen_Single_Login_001.wav
+  Hello. What shall we do today? Please tell me without hesitation.
+
+Series_Attack__VO_Helen_Series_Tone_Positive_003.wav
+  I will suppress you!
+
+Series_Battle_Start__VO_Helen_Series_Tone_Positive_002.wav
+  Let's go.
+
+Series_Chosen_Auto__VO_Helen_Series_Tone_Positive_007.wav
+  Roger that.
+
+Series_Chosen__VO_Helen_Series_Tone_Positive_006.wav
+  Leave it to me.
+
+Series_Daily_001.wav
+  The Hermogos are like a big family. And the Commander is a pillar of the Empire. Fufu, if you have any problems, I'll be in your care.
+
+Series_Daily_002.wav
+  Shall we talk before we go to sleep? It's okay. It's not a scary story, it's a folk tale from various regions and an old story.
+
+Series_Daily_003.wav
+  Yes, please leave anything to me. Instead, can I stay with you for a little longer?
+
+Series_Daily_004.wav
+  I'm most happy when I can be like this. Wherever you are, wherever you are, is where I return to.
+
+Series_Daily_005.wav
+  Oh, Commander, your hair seems to be a little messy. Let's fix it.
+
+Series_Die__VO_Helen_Series_Tone_Negative_001.wav
+  I'll fall asleep again...
+
+Series_Dying__VO_Helen_Series_Tone_Negative_002.wav
+  I won't play anymore!
+
+Series_Hit__VO_Helen_Single_Hit_001.wav
+  It's a surprise!
+
+Series_Hitted__VO_Helen_Series_HittedLast.wav
+  Ugh!
+
+Series_Kill__VO_Helen_Single_Kill_001.wav
+  Poor thing.
+
+Series_Lose__VO_Helen_Single_Lose_001.wav
+  I can't give up information here again...
+
+Series_Set_Click__VO_Helen_Series_Tone_Positive_004.wav
+  Information confirmed.
+
+Series_Set_Fall__VO_Helen_Series_Tone_Positive_005.wav
+  Arrived at the scheduled location.
+
+Series_Shield_Broken__VO_Helen_Series_Tone_Negative_003.wav
+  ...Ha, пох...
+
+Series_Skill01__VO_Helen_Single_Skill_001.wav
+  I won't let you pass through here.
+
+Series_Skill02__VO_Helen_Single_Skill_002.wav
+  Sorry nice talking back
+
+Series_Tone_Positive_001.wav
+  I will protect you.
+
+Series_Ultimate__VO_Helen_Single_Ultimate_SSR_001.wav
+  I'm with you.
+
+Series_Up_001.wav
+  Yes, let's do that.
+
+Series_Up_002.wav
+  I've increased my defense.
+
+Series_Up_003.wav
+  Your Enjan ability has increased.
+
+Series_Up_004.wav
+  Ahaha, it's going well.
+
+Series_Up_005.wav
+  If it's something you desire, then anything is fine.
+
+Series_Win__VO_Helen_Single_Win_001.wav
+  Please rest assured. The danger has been eliminated.
+
+Single_Birthday_SSR_001.wav
+  Happy birthday, Commander. I've prepared a lot for today. Cakes, presents, birthday parties, and even your favorite things. I'm sure you'll be happy.
+
+Single_Christmas_001.wav
+  Merry Christmas! Ehehe, surprises aren't just presents. There are more, so please look forward to them.
+
+Single_Friendliness_001.wav
+  The weather is nice today. Commander, why don't we take a walk together in the command room?
+
+Single_Friendliness_002.wav
+  If you have any information you'd like to know, please let me know anytime. By the way, I've recorded all the information about the Commander.
+
+Single_Friendliness_003.wav
+  If everyone is relying on the Commander, who should the Commander rely on? If you like, please rely on me sometimes. If you're tired, please come to my place and rest. I'll tell you an interesting story.
+
+Single_Friendliness_004.wav
+  For me, you are different from other humans. That is why I will protect your ideals and defeat those who hinder you.
+
+Single_Friendliness_005.wav
+  I had a long dream. Living with you like this was the future I wanted. And it's also my future goal.
+
+Single_Friendliness_006.wav
+  I heard that when humans are sad, they want to be held in someone's arms. I don't think you're that sad, Commander, but if that's okay with you... Please come into my arms.
+
+Single_Friendliness_007.wav
+  No matter how trivial it is, I will satisfy you. Instead, it's fine if you do it once in a while, but please let me be satisfied too, Commander.
+
+Single_Friendliness_008.wav
+  Ever since I met you, I've always wanted a home of our own. Let's make it come true with all our might. That is our oath.
+
+Single_MidAutumn_001.wav
+  Let's go see the moon together today. I've prepared moon cakes and flowers. And I'll tell you a lot about the moon. Yes, tonight you'll surely see a beautiful moon.
+
+Single_NewYear_001.wav
+  I'm so happy to be able to celebrate the New Year with you, Commander. I will continue to protect you and your precious things.
+
+Single_Obtain_SSR_001.wav
+  I'm really happy to see you again. This time, let me be by your side. I will definitely protect you.
+
+Single_Passive_SSR_001.wav
+  ...That's too sweet.%
+
+Single_SpringFes_001.wav
+  Happy New Year! When you come, would you like to go on a trip together? I want to spend more time with you next year.
+
+Single_Title_001.wav
+  Dolls Front Line 2 Exilium
+
+Single_Valentine_001.wav
+  Commander, do you want some chocolate? Actually, I'm hiding it somewhere right now... Fufu, shall I look for it?
+

@@ -1256,4 +1256,424 @@
             />
     </Sound>
   </Pack>
+  <Pack name="Helen-Voice" channel="voice">
+    <Sound ID="VOX_DYING">
+      <Path
+            name="data/sounds/voice/Helen/Series_Die__VO_Helen_Series_Tone_Negative_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_GEAR_FLASH">
+    </Sound>
+    <Sound ID="VOX_GEAR_FRAG">
+    </Sound>
+    <Sound ID="VOX_GEAR_LAUNCHER">
+    </Sound>
+    <Sound ID="VOX_GEAR_MOLOTOV">
+    </Sound>
+    <Sound ID="VOX_GEAR_ROCKET">
+    </Sound>
+    <Sound ID="VOX_GEAR_SMOKE">
+    </Sound>
+    <Sound ID="VOX_GEAR_STINGER">
+    </Sound>
+    <Sound ID="VOX_INJURED">
+      <Path
+            name="data/sounds/voice/Helen/Series_Hitted__VO_Helen_Series_HittedLast.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_RELOAD">
+    </Sound>
+    <Sound ID="VOX_RELOAD_PUMP">
+    </Sound>
+    <Sound ID="VOX_TRPR_BOMB_DEFUSING">
+    </Sound>
+    <Sound ID="VOX_TRPR_BOMB_LOCATED">
+      <Path
+            name="data/sounds/voice/Helen/Series_Set_Click__VO_Helen_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_CAN_I_SHOOT">
+    </Sound>
+    <Sound ID="VOX_TRPR_CANT">
+    </Sound>
+    <Sound ID="VOX_TRPR_CIV_DOWN">
+      <Path
+            name="data/sounds/voice/Helen/Series_Lose__VO_Helen_Single_Lose_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_CLEAR">
+      <Path
+            name="data/sounds/voice/Helen/Series_Win__VO_Helen_Single_Win_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_COME">
+      <Path
+            name="data/sounds/voice/Helen/Series_Set_Fall__VO_Helen_Series_Tone_Positive_005.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_DONE_HERE">
+      <Path
+            name="data/sounds/voice/Helen/Series_Kill__VO_Helen_Single_Kill_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_EVAC">
+      <Path
+            name="data/sounds/voice/Helen/Series_Lose__VO_Helen_Single_Lose_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_EYES_HOSTAGE">
+      <Path
+            name="data/sounds/voice/Helen/Series_Set_Click__VO_Helen_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_EYESONTARGET">
+      <Path
+            name="data/sounds/voice/Helen/Series_Set_Click__VO_Helen_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_EYESONTARGET_QUIET">
+    </Sound>
+    <Sound ID="VOX_TRPR_FREEZE">
+    </Sound>
+    <Sound ID="VOX_TRPR_GEAR_CHARGE_PLACE">
+    </Sound>
+    <Sound ID="VOX_TRPR_GEAR_CHARGE_RDY">
+    </Sound>
+    <Sound ID="VOX_TRPR_GETDOWN">
+    </Sound>
+    <Sound ID="VOX_TRPR_GO_GO_GO">
+      <Path
+            name="data/sounds/voice/Helen/Series_Battle_Start__VO_Helen_Series_Tone_Positive_002.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_GO_LOUD">
+    </Sound>
+    <Sound ID="VOX_TRPR_HANDCUFF">
+    </Sound>
+    <Sound ID="VOX_TRPR_HOLDING">
+      <Path name="data/sounds/voice/Helen/Series_Up_001.wav" />
+    </Sound>
+    <Sound ID="VOX_TRPR_HOST_DOWN">
+      <Path
+            name="data/sounds/voice/Helen/Series_Lose__VO_Helen_Single_Lose_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_HOST_SEC">
+      <Path name="data/sounds/voice/Helen/Series_Up_001.wav" />
+    </Sound>
+    <Sound ID="VOX_TRPR_HVT_RUNNING">
+      <Path
+            name="data/sounds/voice/Helen/Series_Set_Click__VO_Helen_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_KEEPMOVINGOFF">
+    </Sound>
+    <Sound ID="VOX_TRPR_KEEPMOVINGON">
+    </Sound>
+    <Sound ID="VOX_TRPR_MANDOWN">
+      <Path
+            name="data/sounds/voice/Helen/Series_Lose__VO_Helen_Single_Lose_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_MATCHSPEEDON">
+    </Sound>
+    <Sound ID="VOX_TRPR_MOVING">
+      <Path
+            name="data/sounds/voice/Helen/Series_Set_Fall__VO_Helen_Series_Tone_Positive_005.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_NOTANGOS">
+    </Sound>
+    <Sound ID="VOX_TRPR_ONTARGET">
+      <Path
+            name="data/sounds/voice/Helen/Series_Chosen__VO_Helen_Series_Tone_Positive_006.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_ON_ALPHA">
+    </Sound>
+    <Sound ID="VOX_TRPR_ON_BRAVO">
+    </Sound>
+    <Sound ID="VOX_TRPR_ON_CHARLIE">
+    </Sound>
+    <Sound ID="VOX_TRPR_ON_DELTA">
+    </Sound>
+    <Sound ID="VOX_TRPR_ORDERS">
+    </Sound>
+    <Sound ID="VOX_TRPR_PASS_ALPHA">
+    </Sound>
+    <Sound ID="VOX_TRPR_PASS_BRAVO">
+    </Sound>
+    <Sound ID="VOX_TRPR_PASS_CHARLIE">
+    </Sound>
+    <Sound ID="VOX_TRPR_PASS_DELTA">
+    </Sound>
+    <Sound ID="VOX_TRPR_PINNED_DOWN">
+      <Path
+            name="data/sounds/voice/Helen/Series_Hitted__VO_Helen_Series_HittedLast.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_PUMPUP">
+      <Path
+            name="data/sounds/voice/Helen/Series_Skill01__VO_Helen_Single_Skill_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_ROGER">
+      <Path
+            name="data/sounds/voice/Helen/Series_Chosen_Auto__VO_Helen_Series_Tone_Positive_007.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_SILENTOFF">
+    </Sound>
+    <Sound ID="VOX_TRPR_SILENTON">
+    </Sound>
+    <Sound ID="VOX_TRPR_SUSP_SEC">
+    </Sound>
+    <Sound ID="VOX_TRPR_TANGODOWN">
+      <Path
+            name="data/sounds/voice/Helen/Series_Kill__VO_Helen_Single_Kill_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_TANGOS">
+      <Path
+            name="data/sounds/voice/Helen/Series_Set_Click__VO_Helen_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_TARGET_SEC">
+      <Path
+            name="data/sounds/voice/Helen/Series_Set_Click__VO_Helen_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_TIME_TO_GO">
+      <Path
+            name="data/sounds/voice/Helen/Series_Battle_Start__VO_Helen_Series_Tone_Positive_002.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_VIP_DEAD">
+      <Path
+            name="data/sounds/voice/Helen/Series_Lose__VO_Helen_Single_Lose_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_WAIT">
+    </Sound>
+    <Sound ID="VOX_WARN_GRENADE">
+      <Path
+            name="data/sounds/voice/Helen/Series_Shield_Broken__VO_Helen_Series_Tone_Negative_003.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_WARN_RPG">
+      <Path
+            name="data/sounds/voice/Helen/Series_Shield_Broken__VO_Helen_Series_Tone_Negative_003.wav"
+        />
+    </Sound>
+  </Pack>
+  <Pack name="Lewis-Voice" channel="voice">
+    <Sound ID="VOX_DYING">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Die__VO_Lewis_Series_Tone_Negative_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_GEAR_FLASH">
+    </Sound>
+    <Sound ID="VOX_GEAR_FRAG">
+    </Sound>
+    <Sound ID="VOX_GEAR_LAUNCHER">
+    </Sound>
+    <Sound ID="VOX_GEAR_MOLOTOV">
+    </Sound>
+    <Sound ID="VOX_GEAR_ROCKET">
+    </Sound>
+    <Sound ID="VOX_GEAR_SMOKE">
+    </Sound>
+    <Sound ID="VOX_GEAR_STINGER">
+    </Sound>
+    <Sound ID="VOX_INJURED">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Hitted__VO_Lewis_Series_HittedLast.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_RELOAD">
+    </Sound>
+    <Sound ID="VOX_RELOAD_PUMP">
+    </Sound>
+    <Sound ID="VOX_TRPR_BOMB_DEFUSING">
+    </Sound>
+    <Sound ID="VOX_TRPR_BOMB_LOCATED">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Set_Click__VO_Lewis_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_CAN_I_SHOOT">
+    </Sound>
+    <Sound ID="VOX_TRPR_CANT">
+    </Sound>
+    <Sound ID="VOX_TRPR_CIV_DOWN">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Lose__VO_Lewis_Single_Lose_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_CLEAR">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Win__VO_Lewis_Single_Win_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_COME">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Set_Fall__VO_Lewis_Series_Tone_Positive_005.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_DONE_HERE">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Kill__VO_Lewis_Single_Kill_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_EVAC">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Lose__VO_Lewis_Single_Lose_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_EYES_HOSTAGE">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Set_Click__VO_Lewis_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_EYESONTARGET">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Set_Click__VO_Lewis_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_EYESONTARGET_QUIET">
+    </Sound>
+    <Sound ID="VOX_TRPR_FREEZE">
+    </Sound>
+    <Sound ID="VOX_TRPR_GEAR_CHARGE_PLACE">
+    </Sound>
+    <Sound ID="VOX_TRPR_GEAR_CHARGE_RDY">
+    </Sound>
+    <Sound ID="VOX_TRPR_GETDOWN">
+    </Sound>
+    <Sound ID="VOX_TRPR_GO_GO_GO">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Battle_Start__VO_Lewis_Series_Tone_Positive_002.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_GO_LOUD">
+    </Sound>
+    <Sound ID="VOX_TRPR_HANDCUFF">
+    </Sound>
+    <Sound ID="VOX_TRPR_HOLDING">
+      <Path name="data/sounds/voice/Lewis/Series_Up_001.wav" />
+    </Sound>
+    <Sound ID="VOX_TRPR_HOST_DOWN">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Lose__VO_Lewis_Single_Lose_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_HOST_SEC">
+      <Path name="data/sounds/voice/Lewis/Series_Up_001.wav" />
+    </Sound>
+    <Sound ID="VOX_TRPR_HVT_RUNNING">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Set_Click__VO_Lewis_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_KEEPMOVINGOFF">
+    </Sound>
+    <Sound ID="VOX_TRPR_KEEPMOVINGON">
+    </Sound>
+    <Sound ID="VOX_TRPR_MANDOWN">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Lose__VO_Lewis_Single_Lose_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_MATCHSPEEDON">
+    </Sound>
+    <Sound ID="VOX_TRPR_MOVING">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Set_Fall__VO_Lewis_Series_Tone_Positive_005.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_NOTANGOS">
+    </Sound>
+    <Sound ID="VOX_TRPR_ONTARGET">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Chosen__VO_Lewis_Series_Tone_Positive_006.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_ON_ALPHA">
+    </Sound>
+    <Sound ID="VOX_TRPR_ON_BRAVO">
+    </Sound>
+    <Sound ID="VOX_TRPR_ON_CHARLIE">
+    </Sound>
+    <Sound ID="VOX_TRPR_ON_DELTA">
+    </Sound>
+    <Sound ID="VOX_TRPR_ORDERS">
+    </Sound>
+    <Sound ID="VOX_TRPR_PASS_ALPHA">
+    </Sound>
+    <Sound ID="VOX_TRPR_PASS_BRAVO">
+    </Sound>
+    <Sound ID="VOX_TRPR_PASS_CHARLIE">
+    </Sound>
+    <Sound ID="VOX_TRPR_PASS_DELTA">
+    </Sound>
+    <Sound ID="VOX_TRPR_PINNED_DOWN">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Hitted__VO_Lewis_Series_HittedLast.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_PUMPUP">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Skill01__VO_Lewis_Single_Skill_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_ROGER">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Chosen_Auto__VO_Lewis_Series_Tone_Positive_007.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_SILENTOFF">
+    </Sound>
+    <Sound ID="VOX_TRPR_SILENTON">
+    </Sound>
+    <Sound ID="VOX_TRPR_SUSP_SEC">
+    </Sound>
+    <Sound ID="VOX_TRPR_TANGODOWN">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Kill__VO_Lewis_Single_Kill_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_TANGOS">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Set_Click__VO_Lewis_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_TARGET_SEC">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Set_Click__VO_Lewis_Series_Tone_Positive_004.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_TIME_TO_GO">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Battle_Start__VO_Lewis_Series_Tone_Positive_002.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_VIP_DEAD">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Lose__VO_Lewis_Single_Lose_001.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_TRPR_WAIT">
+    </Sound>
+    <Sound ID="VOX_WARN_GRENADE">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Shield_Broken__VO_Lewis_Series_Tone_Negative_003.wav"
+        />
+    </Sound>
+    <Sound ID="VOX_WARN_RPG">
+      <Path
+            name="data/sounds/voice/Lewis/Series_Shield_Broken__VO_Lewis_Series_Tone_Negative_003.wav"
+        />
+    </Sound>
+  </Pack>
 </Sounds>

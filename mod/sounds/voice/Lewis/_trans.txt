@@ -1,0 +1,136 @@
+# Voice Line Translations for Lewis
+# Generated automatically using OpenAI Whisper
+# Total files: 44
+
+Lobby_Welcome__VO_Lewis_Single_Login_001.wav
+  Let's play with new toys today!
+
+Series_Attack__VO_Lewis_Series_Tone_Positive_003.wav
+  Hit it!
+
+Series_Battle_Start__VO_Lewis_Series_Tone_Positive_002.wav
+  I'll beat the bad guys!
+
+Series_Chosen_Auto__VO_Lewis_Series_Tone_Positive_007.wav
+  Me?
+
+Series_Chosen__VO_Lewis_Series_Tone_Positive_006.wav
+  I'm here!
+
+Series_Daily_001.wav
+  Leave the paperwork to me. Huh? There's no file I organized yesterday!
+
+Series_Daily_002.wav
+  If you compare your strength, you won't lose. Want to try arm wrestling with me?
+
+Series_Daily_003.wav
+  Soldier 1? Huh? What is it?
+
+Series_Daily_004.wav
+  I made the clothes I'm wearing now based on Cloud's A-Chan. How is it?
+
+Series_Daily_005.wav
+  Commander, how about an afternoon tea? Darjeeling, Assam, Earl Grey... There's also a peach-sugar coffee!
+
+Series_Die__VO_Lewis_Series_Tone_Negative_001.wav
+  The toy broke...
+
+Series_Dying__VO_Lewis_Series_Tone_Negative_002.wav
+  Not cute!
+
+Series_Hit__VO_Lewis_Single_Hit_001.wav
+  I'll show you my true colors!
+
+Series_Kill__VO_Lewis_Single_Kill_001.wav
+  Yay!
+
+Series_Lose__VO_Lewis_Single_Lose_001.wav
+  Ugh, they're all mean enemies...
+
+Series_Set_Click__VO_Lewis_Series_Tone_Positive_004.wav
+  Leave it to me!
+
+Series_Set_Fall__VO_Lewis_Series_Tone_Positive_005.wav
+  Mission start!
+
+Series_Skill01__VO_Lewis_Single_Skill_001.wav
+  I'll make you enjoy it!
+
+Series_Skill02__VO_Lewis_Single_Skill_002.wav
+  Let's play together!
+
+Series_Tone_Positive_001.wav
+  Ehehe, isn't it cute?
+
+Series_Ultimate__VO_Lewis_Single_Ultimate_SSR_001.wav
+  Let's make our victory into history!
+
+Series_Up_001.wav
+  Ehehe, yay!
+
+Series_Up_002.wav
+  Ehehe, I'm amazing!
+
+Series_Up_003.wav
+  I'm getting inspired again!
+
+Series_Up_004.wav
+  Are you stronger now?
+
+Series_Up_005.wav
+  You're cute now, aren't you?
+
+Series_Win__VO_Lewis_Single_Win_001.wav
+  Don't underestimate the power of a good designer!
+
+Single_Birthday_SSR_001.wav
+  Happy birthday! Ehehe, I'm thinking of giving you a present next year too! I'll prepare a present next year and ten years from now to celebrate!
+
+Single_Christmas_001.wav
+  For Toy Designer, the happy face of the person who opened the present is the best present. Here, this is for you! Merry Christmas! Open it!
+
+Single_Friendliness_001.wav
+  I made a stuffed animal for everyone! Isn't it cute? I put a diner gate on Robela's part, but it seems that she didn't like it.
+
+Single_Friendliness_002.wav
+  The toys are children's treasures, but you can give them to adults as well. Here, this is my new work. I'll give it to the commander.
+
+Single_Friendliness_003.wav
+  Commander, you fell asleep at the desk again? Griffin, Oasis, and Ermogo... You don't change no matter where you are, right? Good night.
+
+Single_Friendliness_004.wav
+  Ehehe, my new work is cute, right? Since we're here, why don't we do something fun together?
+
+Single_Friendliness_005.wav
+  Professor? No, I just wanted to call you that after a long time.
+
+Single_Friendliness_006.wav
+  Want to try my homemade dish? I'll arrange Star Gage Pie as the base and gingerbread... Huh? Commander? Commander!
+
+Single_Friendliness_007.wav
+  I was just making a plush for the commander. I wonder which one is better, white or military clothes? Let's change into something else!
+
+Single_Friendliness_008.wav
+  Luis is really important to me. Why are you always here!?
+
+Single_MidAutumn_001.wav
+  Commander, I bought a lot of coffee beans! They're colorful and cute!
+
+Single_NewYear_001.wav
+  I've replaced the end of the year cleaning! This time, I didn't throw away anything that was there, so it's fine!
+
+Single_Obtain_SSR_001.wav
+  Pampaka-pam! The Sengutsu Doll and Toy Designer, Luis! We've arrived with the toy soldiers! Long time no see, Commander!
+
+Single_Passive_SSR_001.wav
+  It's toy time!
+
+Single_SpringFes_001.wav
+  Happy New Year! Why don't we have fireworks together today? I like cute things!
+
+Single_Title_001.wav
+  Dolls Front Line 2 Exilium
+
+Single_Valentine_001.wav
+  It's okay. You've practiced so many times just to give me a chocolate. Ah! When did you start being there?
+
