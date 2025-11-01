@@ -1618,21 +1618,21 @@
         />
 
 		<AttackTypes>
-			<AttackType name="CIA_FastFireClose" rangeMeters="10" />
-			<AttackType name="CIA_AKRapidFireMed" rangeMeters="30" />
-			<AttackType name="CIA_AKAimedFire" rangeMeters="60" />
-			<AttackType name="CIA_AKAimedFireXX" rangeMeters="9999" />
+			<AttackType name="Rangers_GPMGStrafeShort" rangeMeters="15" />
+			<AttackType name="Rangers_GPMGStrafe" rangeMeters="30" />
+			<AttackType name="Rangers_GPMGStrafeMed" rangeMeters="50" />
+			<AttackType name="Rangers_GPMGStrafeLongXX" rangeMeters="9999" />
 		</AttackTypes>
 
 		<AttackTypesSuppressiveFire>
 			<AttackType name="AreaSuppression_Auto" rangeMeters="9999" />
 		</AttackTypesSuppressiveFire>
 
-		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Rifle">
-			<Flare particles="FX_MUZZLE_FLASH_RIFLE_01" />
-			<Flare particles="FX_MUZZLE_FLASH_RIFLE_02" />
-			<Flare particles="FX_MUZZLE_FLASH_RIFLE_03" />
-			<Flare particles="FX_MUZZLE_FLASH_RIFLE_04" />
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_LMG">
+			<Flare particles="FX_MUZZLE_FLASH_LMG_01" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_02" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_03" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_04" />
 		</MuzzleFlash>
 
 		<Sounds>
@@ -2076,6 +2076,187 @@
 			<Reload name="rifle_reld" />
 			<ReloadEmpty name="rifle_reldempt" />
 			<Fire name="m110sup_fire" />
+			<ShellDrop name="rifle_shell_drop" />
+			<Empty name="gen_empty" />
+		</Sounds>
+	</Firearm>
+
+<!-- DP-12 -->
+	<Bind eqp="GFL-WEAP-DP12">
+		<to name="12GA00BUCK_M1014" />
+		<to name="12GA00BUCK8_M500" />
+		<to name="12GANO4BUCK_M500" />
+
+		<to name="IronSights" />
+		<to name="M68CCO" />
+		<to name="Holosight" />
+		<to name="M150RCO" />
+	</Bind>
+
+	<Firearm
+        name="GFL-WEAP-DP12"
+        inventoryBinding="PrimaryWeapon"
+        category="shotgun"
+        unlockCost="0"
+        tooltip="@WEAP-DP12-NAME"
+        description="@WEAP-DP12-DESC"
+        img="data/models/signatures/g36_ui.dds"
+        animationSet="shotgun_pump"
+    >
+		<MobilityModifiers
+            moveSpeedModifierPercent="-6"
+            turnSpeedModifierPercent="-2"
+        />
+		<ConcealmentModifier add="-3" />
+
+		<RenderObject3D
+            model="data/models/signatures/dp12.khm"
+            attachSlot="prop_front_rifle"
+            skipGOSSAO="true"
+            diffuseTex="data/models/signatures/dp12.dds"
+        />
+
+		<ModifiableParams
+            numPellets="9"
+            roundsPerMagazine="14"
+            closedBolt="1"
+            cyclicReload="1"
+            reloadTime="550"
+            reloadEmptyTime="1100"
+            changeInTime="0"
+            changeOutTime="0"
+            readyTime="450"
+            guardTime="200"
+            accuracyStart="120"
+            accuracyEnd="12"
+            accuracyStartDist="0"
+            accuracyEndDist="100"
+            suppressionScale="0.16"
+        />
+
+		<Params
+            caliberInfoText="@firearm_caliber_12gauge_name"
+            operationInfoText="@firearm_operation_pumpaction_name"
+            ejectingShellEntity="BulletCasingShotgun"
+            ai_rangeMin="1.0"
+            ai_rangeOptimal="7.0"
+            ai_rangeMax="15.0"
+            ai_stopWhenShooting="false"
+        />
+
+        <AttackTypes>
+			<AttackType name="DP12_DoubleShotClose" rangeMeters="7" />
+			<AttackType name="DP12_DoubleShotMed" rangeMeters="15" />
+			<AttackType name="DP12_DoubleShotLong" rangeMeters="9999" />
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Pistol">
+			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_01" />
+			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_02" />
+			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_03" />
+			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_04" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="870br_eqp" />
+			<Unequip name="870br_neqp" />
+			<Reload name="870br_reld" />
+			<ReloadEmpty name="870br_reld" />
+			<Fire name="m1014_fire" />
+			<ShellDrop name="shotgun_shell_drop" />
+			<Empty name="gen_empty" />
+		</Sounds>
+	</Firearm>
+
+<!-- Lewis Gun -->
+	<Bind eqp="GFL-WEAP-LEWIS">
+		<to name="762FMJM80A1_MK17STD" />
+		<to name="762FMJM118LR_MK17STD" />
+
+		<to name="IronSights" />
+		<to name="M68CCO" />
+		<to name="Holosight" />
+		<to name="HoloMag3X" />
+		<to name="M150RCO" />
+		<to name="SpecterDR" />
+	</Bind>
+	<Firearm
+        name="GFL-WEAP-LEWIS"
+        inventoryBinding="PrimaryWeapon"
+        category="lmg"
+        unlockCost="0"
+        tooltip="@WEAP-LEWIS-NAME"
+        description="@WEAP-LEWIS-DESC"
+        img="data/models/signatures/g36_ui.dds"
+        animationSet="rifle"
+    >
+		<MobilityModifiers
+            moveSpeedModifierPercent="-10"
+            turnSpeedModifierPercent="-4"
+        />
+			<ConcealmentModifier add="-4" />
+
+			<RenderObject3D
+            model="data/models/signatures/lewis.khm"
+            attachSlot="prop_front_rifle"
+            skipGOSSAO="true"
+            diffuseTex="data/models/signatures/lewis.dds"
+        />
+
+		<ModifiableParams
+            numPellets="1"
+            roundsPerMagazine="47"
+            closedBolt="1"
+            cyclicReload="0"
+            reloadTime="4500"
+            reloadEmptyTime="5200"
+            changeInTime="0"
+            changeOutTime="0"
+            readyTime="600"
+            guardTime="250"
+            accuracyStart="135"
+            accuracyEnd="45"
+            accuracyStartDist="10"
+            accuracyEndDist="50"
+            suppressionScale="1.2"
+            suppressArea="2"
+            meleeDamageBonus="80"
+        />
+
+		<Params
+            caliberInfoText="@firearm_caliber_762x51_name"
+            operationInfoText="@firearm_operation_fullauto_name"
+            ejectingShellEntity="BulletCasingLarge"
+            magazineEntity="m240l_mag"
+            ai_rangeMin="5.0"
+            ai_rangeOptimal="20.0"
+            ai_rangeMax="60.0"
+        />
+
+		<AttackTypes>
+			<AttackType name="Rangers_LMGStrafeShort" rangeMeters="10" />
+			<AttackType name="Rangers_LMGStrafe" rangeMeters="20" />
+			<AttackType name="Rangers_LMGStrafeMed" rangeMeters="40" />
+			<AttackType name="Rangers_LMGStrafeLongXX" rangeMeters="9999" />
+		</AttackTypes>
+
+		<AttackTypesSuppressiveFire>
+			<AttackType name="AreaSuppression_Auto" rangeMeters="9999" />
+		</AttackTypesSuppressiveFire>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_LMG">
+			<Flare particles="FX_MUZZLE_FLASH_LMG_01" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_02" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_03" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_04" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp" />
+			<Unequip name="rifle_neqp" />
+			<Reload name="rifle_reld" />
+			<ReloadEmpty name="rifle_reldempt" />
+			<Fire name="m110csass_fire" />
 			<ShellDrop name="rifle_shell_drop" />
 			<Empty name="gen_empty" />
 		</Sounds>

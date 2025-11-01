@@ -339,4 +339,32 @@
         gender="0"
         customName="NIKKETA"
     />
+    <Portrait
+        tex="data/textures/portraits/gfl_dp12.dds"
+        unit="GFL-UNIT-ELMOCE"
+        class="GFL-DOLL-DP12"
+        gender="0"
+        customName="HELEN"
+    />
+    <Portrait
+        tex="data/textures/portraits/gfl_dp12.dds"
+        unit="GFL-UNIT-GIRL"
+        class="GFL-DOLL-DP12"
+        gender="0"
+        customName="HELEN"
+    />
+    <Portrait
+        tex="data/textures/portraits/gfl_lewis.dds"
+        unit="GFL-UNIT-ELMOCE"
+        class="GFL-DOLL-LEWIS"
+        gender="0"
+        customName="LEWIS"
+    />
+    <Portrait
+        tex="data/textures/portraits/gfl_lewis.dds"
+        unit="GFL-UNIT-GIRL"
+        class="GFL-DOLL-LEWIS"
+        gender="0"
+        customName="LEWIS"
+    />
 </HumanIdentities>

@@ -89,4 +89,43 @@
             critChanceAdd="25"
         />
     </AttackType>
+
+    <AttackType name="DP12_DoubleShotClose">
+        <ModifiableParams
+            minAimTime="300"
+            maxAimTime="400"
+            minShots="1"
+            maxShots="2"
+            resetTime="600"
+            accuracyAdd="0"
+            followupShotAccuracyAdd="5"
+            critChanceAdd="0"
+        />
+    </AttackType>
+
+    <AttackType name="DP12_DoubleShotMed">
+        <ModifiableParams
+            minAimTime="400"
+            maxAimTime="600"
+            minShots="1"
+            maxShots="2"
+            resetTime="700"
+            accuracyAdd="0"
+            followupShotAccuracyAdd="8"
+            critChanceAdd="5"
+        />
+    </AttackType>
+
+    <AttackType name="DP12_DoubleShotFar">
+        <ModifiableParams
+            minAimTime="500"
+            maxAimTime="700"
+            minShots="1"
+            maxShots="2"
+            resetTime="800"
+            accuracyAdd="-10"
+            followupShotAccuracyAdd="10"
+            critChanceAdd="10"
+        />
+    </AttackType>
 </FirearmAttackTypes>
