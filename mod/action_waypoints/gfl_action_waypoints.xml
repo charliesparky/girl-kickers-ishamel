@@ -1,5 +1,5 @@
 <ActionWaypoints>
-	<wp
+    <wp
         type="THROW_GRENADE"
         equipment="GFL-GEAR-MEDIC-GRENADE"
         ui_prefix="data/textures/gui_ingame/waypoints/smoke_grenade"

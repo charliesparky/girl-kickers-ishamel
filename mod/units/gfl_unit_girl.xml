@@ -12,7 +12,6 @@
         incapacitationChanceCrit="30"
     >
         <Classes>
-            <!-- DEFY Squad - Slots 0-1 -->
             <Class
                 name="GFL-DOLL-AN94"
                 nameUI="@DOLL-AN94-NAME"
@@ -33,8 +32,6 @@
                 upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2"
                 maxUpgradeable="2"
             />
-
-            <!-- 404 Squad - Slots 2-8 -->
             <Class
                 name="GFL-DOLL-HK416"
                 nameUI="@DOLL-HK416-NAME"
@@ -105,8 +102,6 @@
                 upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2"
                 maxUpgradeable="2"
             />
-
-            <!-- CAFE Squad - Slots 9-12 -->
             <Class
                 name="GFL-DOLL-M1903"
                 nameUI="@DOLL-M1903-NAME"
@@ -147,8 +142,6 @@
                 upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2"
                 maxUpgradeable="2"
             />
-
-            <!-- GROZA Squad - Slots 13-17 -->
             <Class
                 name="GFL-DOLL-OTS14"
                 nameUI="@DOLL-OTS14-NAME"
@@ -199,8 +192,6 @@
                 upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2"
                 maxUpgradeable="2"
             />
-
-            <!-- ELMOCE Squad - Slots 18-23 -->
             <Class
                 name="GFL-DOLL-PKPSP"
                 nameUI="@DOLL-PKPSP-NAME"

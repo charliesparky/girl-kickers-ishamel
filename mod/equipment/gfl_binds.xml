@@ -1,5 +1,5 @@
 <Equipment>
-	<Helmet
+    <Helmet
         name="GFL_OcularEnhancement"
         inventoryBinding="Helmet"
         unlockCost="0"
@@ -7,14 +7,14 @@
         description="@helmet_gfl_ocular_desc"
         img="data/models/humans/attachments/nvg_01_ui.dds"
     >
-		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0" />
-		<ConcealmentModifier add="0" />
-		<Params nvgByDefault="true">
-			<ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0" />
-		</Params>
-	</Helmet>
+        <MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0" />
+        <ConcealmentModifier add="0" />
+        <Params nvgByDefault="true">
+            <ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0" />
+        </Params>
+    </Helmet>
 
-	<Armor
+    <Armor
         name="GFL_ReactiveShielding"
         inventoryBinding="Armor"
         unlockCost="0"
@@ -22,25 +22,25 @@
         description="@armor_gfl_reactive_desc"
         img="data/models/equipment/armor_noplates_ui.dds"
     >
-		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0" />
-		<ConcealmentModifier add="0" />
+        <MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0" />
+        <ConcealmentModifier add="0" />
 
-		<Params>
-			<ProtectionArc degrees="90" coveragePercent="55" piercingProtectionLevel="50" />
-			<ProtectionArc
+        <Params>
+            <ProtectionArc degrees="90" coveragePercent="55" piercingProtectionLevel="50" />
+            <ProtectionArc
                 degrees="180"
                 coveragePercent="30"
                 piercingProtectionLevel="30"
             />
-			<ProtectionArc
+            <ProtectionArc
                 degrees="360"
                 coveragePercent="30"
                 piercingProtectionLevel="20"
             />
-		</Params>
-	</Armor>
+        </Params>
+    </Armor>
 
-	<Armor
+    <Armor
         name="GFL_CombatMatrix"
         inventoryBinding="Armor"
         unlockCost="3"
@@ -48,28 +48,28 @@
         description="@armor_gfl_matrix_desc"
         img="data/models/equipment/armor_softlevelii_ui.dds"
     >
-		<MobilityModifiers
+        <MobilityModifiers
             moveSpeedModifierPercent="-5"
             turnSpeedModifierPercent="-3"
         />
-		<ConcealmentModifier add="0" />
+        <ConcealmentModifier add="0" />
 
-		<Params>
-			<ProtectionArc degrees="90" coveragePercent="60" piercingProtectionLevel="60" />
-			<ProtectionArc
+        <Params>
+            <ProtectionArc degrees="90" coveragePercent="60" piercingProtectionLevel="60" />
+            <ProtectionArc
                 degrees="180"
                 coveragePercent="40"
                 piercingProtectionLevel="40"
             />
-			<ProtectionArc
+            <ProtectionArc
                 degrees="360"
                 coveragePercent="40"
                 piercingProtectionLevel="30"
             />
-		</Params>
-	</Armor>
+        </Params>
+    </Armor>
 
-	<Armor
+    <Armor
         name="GFL_HardenedCore"
         inventoryBinding="Armor"
         unlockCost="6"
@@ -77,26 +77,26 @@
         description="@armor_gfl_hardened_desc"
         img="data/models/equipment/armor_softleveliiia_ui.dds"
     >
-		<MobilityModifiers
+        <MobilityModifiers
             moveSpeedModifierPercent="-12"
             turnSpeedModifierPercent="-6"
         />
-		<ConcealmentModifier add="-1" />
+        <ConcealmentModifier add="-1" />
 
-		<Params>
-			<ProtectionArc degrees="90" coveragePercent="65" piercingProtectionLevel="70" />
-			<ProtectionArc
+        <Params>
+            <ProtectionArc degrees="90" coveragePercent="65" piercingProtectionLevel="70" />
+            <ProtectionArc
                 degrees="180"
                 coveragePercent="50"
                 piercingProtectionLevel="55"
             />
-			<ProtectionArc
+            <ProtectionArc
                 degrees="360"
                 coveragePercent="50"
                 piercingProtectionLevel="40"
             />
-		</Params>
-	</Armor>
+        </Params>
+    </Armor>
 
     <Bind to="GFL-DOLL-AK15">
         <eqp name="GFL-WEAP-AK15" />
@@ -106,35 +106,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -142,16 +142,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -174,35 +174,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -210,16 +210,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -241,35 +241,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -277,16 +277,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -308,35 +308,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -344,16 +344,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -376,35 +376,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -412,16 +412,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -443,35 +443,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -479,16 +479,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -510,35 +510,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -546,16 +546,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -577,35 +577,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -613,16 +613,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -644,35 +644,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -680,16 +680,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -711,35 +711,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -747,16 +747,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -778,35 +778,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -814,16 +814,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -846,35 +846,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -882,16 +882,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -913,35 +913,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -949,16 +949,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -980,35 +980,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1016,16 +1016,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -1047,35 +1047,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1083,16 +1083,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -1107,7 +1107,7 @@
         <eqp name="GFL_OcularEnhancement" />
     </Bind>
 
-	<Armor
+    <Armor
         name="GFL-ARMOR-HARE"
         inventoryBinding="Armor"
         unlockCost="0"
@@ -1115,28 +1115,28 @@
         description="@armor_gfl_hare_desc"
         img="data/models/equipment/shield_01_ui.dds"
     >
-		<MobilityModifiers
+        <MobilityModifiers
             moveSpeedModifierPercent="-2"
             turnSpeedModifierPercent="-1"
         />
-		<ConcealmentModifier add="-2" />
+        <ConcealmentModifier add="-2" />
 
-		<Params>
-			<ProtectionArc degrees="90" coveragePercent="70" piercingProtectionLevel="70" />
-			<ProtectionArc
+        <Params>
+            <ProtectionArc degrees="90" coveragePercent="70" piercingProtectionLevel="70" />
+            <ProtectionArc
                 degrees="180"
                 coveragePercent="40"
                 piercingProtectionLevel="40"
             />
-			<ProtectionArc
+            <ProtectionArc
                 degrees="360"
                 coveragePercent="30"
                 piercingProtectionLevel="20"
             />
-		</Params>
-	</Armor>
+        </Params>
+    </Armor>
 
-	<Armor
+    <Armor
         name="GFL-ARMOR-HARE-HEAVY"
         inventoryBinding="Armor"
         unlockCost="5"
@@ -1144,53 +1144,53 @@
         description="@armor_gfl_hare_heavy_desc"
         img="data/models/equipment/shield_02_ui.dds"
     >
-		<MobilityModifiers
+        <MobilityModifiers
             moveSpeedModifierPercent="-13"
             turnSpeedModifierPercent="-10"
         />
-		<ConcealmentModifier add="-3" />
+        <ConcealmentModifier add="-3" />
 
-		<Params>
-			<ProtectionArc degrees="90" coveragePercent="75" piercingProtectionLevel="75" />
-			<ProtectionArc
+        <Params>
+            <ProtectionArc degrees="90" coveragePercent="75" piercingProtectionLevel="75" />
+            <ProtectionArc
                 degrees="180"
                 coveragePercent="65"
                 piercingProtectionLevel="60"
             />
-			<ProtectionArc
+            <ProtectionArc
                 degrees="360"
                 coveragePercent="50"
                 piercingProtectionLevel="40"
             />
-		</Params>
-	</Armor>
+        </Params>
+    </Armor>
 
     <Bind to="GFL-DOLL-HARE">
         <eqp name="GFL-WEAP-HARE" />
         <eqp name="GFL-ARMOR-HARE" />
         <eqp name="GFL-ARMOR-HARE-HEAVY" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1198,16 +1198,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -1232,27 +1232,27 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1260,16 +1260,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -1291,35 +1291,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1327,16 +1327,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -1351,42 +1351,42 @@
         <eqp name="GFL_OcularEnhancement" />
     </Bind>
 
-	<Bind to="GFL-DOLL-PKPSP">
+    <Bind to="GFL-DOLL-PKPSP">
         <eqp name="GFL-WEAP-PKPSP" />
 
         <eqp name="GFL_ReactiveShielding" />
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1394,16 +1394,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -1425,35 +1425,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1461,16 +1461,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -1492,35 +1492,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1528,16 +1528,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -1559,35 +1559,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1595,16 +1595,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -1629,27 +1629,27 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1657,16 +1657,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -1688,35 +1688,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1724,16 +1724,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />
@@ -1755,35 +1755,35 @@
         <eqp name="GFL_CombatMatrix" />
         <eqp name="GFL_HardenedCore" />
 
-		<!-- Pistols -->
+        <!-- Pistols -->
         <eqp name="M9 Pistol" />
         <eqp name="M17 Pistol" />
-		<eqp name="M18 Pistol" />
+        <eqp name="M18 Pistol" />
         <eqp name="G19X Pistol" />
         <eqp name="G2240 Pistol" />
         <eqp name="1911 Pistol" />
 
-		<!-- Utility -->
-		<eqp name="Stinger Single" />
+        <!-- Utility -->
+        <eqp name="Stinger Single" />
         <eqp name="Stinger" />
         <eqp name="Slap Charge Kit" />
         <eqp name="Smoke Grenade Single" />
-		<eqp name="Smoke Grenade" />
-		<eqp name="Smoke Grenade Kit" />
-		<eqp name="Frag Grenade Single" />
+        <eqp name="Smoke Grenade" />
+        <eqp name="Smoke Grenade Kit" />
+        <eqp name="Frag Grenade Single" />
         <eqp name="Frag Grenade" />
-		<eqp name="Frag Grenade Kit" />
-		<eqp name="Flashbang Single" />
+        <eqp name="Frag Grenade Kit" />
+        <eqp name="Flashbang Single" />
         <eqp name="Flashbang" />
-		<eqp name="Flashbang Kit" />
-		<eqp name="Molotov Single" />
+        <eqp name="Flashbang Kit" />
+        <eqp name="Molotov Single" />
         <eqp name="Molotov Pyro" />
-		<eqp name="Slap Charge" />
-		<eqp name="Slap Charge Kit" />
-		<eqp name="TEC Torch" />
+        <eqp name="Slap Charge" />
+        <eqp name="Slap Charge Kit" />
+        <eqp name="TEC Torch" />
 
-		<!-- Gear -->
-		<eqp name="Spy Camera" />
+        <!-- Gear -->
+        <eqp name="Spy Camera" />
         <eqp name="Dynamic Hammer" />
         <eqp name="Bolt Cutter" />
         <eqp name="Breaching Charge" />
@@ -1791,16 +1791,16 @@
         <eqp name="AT4 Rocket Launcher" />
         <eqp name="RPG 26 CIA BOps" />
 
-		<!-- NVG -->
-		<eqp name="NVG" />
+        <!-- NVG -->
+        <eqp name="NVG" />
         <eqp name="NVG_02" />
 
-		<!-- Armor -->
+        <!-- Armor -->
         <eqp name="Concealable LVL2" />
-		<eqp name="Concealable LVL3" />
+        <eqp name="Concealable LVL3" />
         <eqp name="Tactical Lining" />
 
-		<eqp name="EmptyUtility" />
+        <eqp name="EmptyUtility" />
         <eqp name="EmptySecondary" />
         <eqp name="EmptyPrimary" />
         <eqp name="EmptyHelmet" />

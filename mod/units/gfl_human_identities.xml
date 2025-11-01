@@ -1,26 +1,26 @@
 <HumanIdentities>
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_an94.dds"
         unit="GFL-UNIT-DEFY"
         class="GFL-DOLL-AN94"
         gender="0"
         customName="ALVA"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_an94.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-AN94"
         gender="0"
         customName="ALVA"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_ak15.dds"
         unit="GFL-UNIT-DEFY"
         class="GFL-DOLL-AK15"
         gender="0"
         customName="VOYMASTINA"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_ak15.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-AK15"
@@ -28,98 +28,98 @@
         customName="VOYMASTINA"
     />
 
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_hk416.dds"
         unit="GFL-UNIT-404"
         class="GFL-DOLL-HK416"
         gender="0"
         customName="KLUKAI"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_hk416.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-HK416"
         gender="0"
         customName="KLUKAI"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_g11.dds"
         unit="GFL-UNIT-404"
         class="GFL-DOLL-G11"
         gender="0"
         customName="MECHTY"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_g11.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-G11"
         gender="0"
         customName="MECHTY"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_g36k.dds"
         unit="GFL-UNIT-404"
         class="GFL-DOLL-G36K"
         gender="0"
         customName="ANDORIS"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_g36k.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-G36K"
         gender="0"
         customName="ANDORIS"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_g28.dds"
         unit="GFL-UNIT-404"
         class="GFL-DOLL-G28"
         gender="0"
         customName="BELKA"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_g28.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-G28"
         gender="0"
         customName="BELKA"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_ump45.dds"
         unit="GFL-UNIT-404"
         class="GFL-DOLL-UMP45"
         gender="0"
         customName="LEVA"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_ump45.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-UMP45"
         gender="0"
         customName="LEVA"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_ump9.dds"
         unit="GFL-UNIT-404"
         class="GFL-DOLL-UMP9"
         gender="0"
         customName="LENNA"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_ump9.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-UMP9"
         gender="0"
         customName="LENNA"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_vector.dds"
         unit="GFL-UNIT-404"
         class="GFL-DOLL-VECTOR"
         gender="0"
         customName="VECTOR"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_vector.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-VECTOR"
@@ -127,56 +127,56 @@
         customName="VECTOR"
     />
 
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_m1903.dds"
         unit="GFL-UNIT-CAFE"
         class="GFL-DOLL-M1903"
         gender="0"
         customName="SPRINGFIELD"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_m1903.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-M1903"
         gender="0"
         customName="SPRINGFIELD"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_wa2000.dds"
         unit="GFL-UNIT-CAFE"
         class="GFL-DOLL-WA2000"
         gender="0"
         customName="MAKIATTO"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_wa2000.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-WA2000"
         gender="0"
         customName="MAKIATTO"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_g36.dds"
         unit="GFL-UNIT-CAFE"
         class="GFL-DOLL-G36"
         gender="0"
         customName="CENTAUREISSI"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_g36.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-G36"
         gender="0"
         customName="CENTAUREISSI"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_xcr.dds"
         unit="GFL-UNIT-CAFE"
         class="GFL-DOLL-XCR"
         gender="0"
         customName="SHARKRY"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_xcr.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-XCR"
@@ -184,70 +184,70 @@
         customName="SHARKRY"
     />
 
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_ots14.dds"
         unit="GFL-UNIT-GROZA"
         class="GFL-DOLL-OTS14"
         gender="0"
         customName="GROZA"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_ots14.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-OTS14"
         gender="0"
         customName="GROZA"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_om50.dds"
         unit="GFL-UNIT-GROZA"
         class="GFL-DOLL-OM50"
         gender="0"
         customName="NEMESIS"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_om50.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-OM50"
         gender="0"
         customName="NEMESIS"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_hare.dds"
         unit="GFL-UNIT-GROZA"
         class="GFL-DOLL-HARE"
         gender="0"
         customName="KROLIK"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_hare.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-HARE"
         gender="0"
         customName="KROLIK"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_curva.dds"
         unit="GFL-UNIT-GROZA"
         class="GFL-DOLL-CURVA"
         gender="0"
         customName="COLPHNE"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_curva.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-CURVA"
         gender="0"
         customName="COLPHNE"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_vepr12.dds"
         unit="GFL-UNIT-GROZA"
         class="GFL-DOLL-VEPR12"
         gender="0"
         customName="VEPLEY"
     />
-	<Portrait
+    <Portrait
         tex="data/textures/portraits/gfl_vepr12.dds"
         unit="GFL-UNIT-GIRL"
         class="GFL-DOLL-VEPR12"

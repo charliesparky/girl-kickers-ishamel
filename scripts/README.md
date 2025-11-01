@@ -1,4 +1,4 @@
-# Development Scripts Setup
+# Development Scripts
 
 ## Prerequisites
 
@@ -16,15 +16,9 @@ mise install
 uv sync
 ```
 
-## Running Scripts
+## Scripts
 
-After setup, you can run any script with:
-
-```bash
-python scripts/script_name.py --help
-```
-
-This will show you all available options and usage information for each script.
+Check the scripts themselves for documentation on what they do and how to use them.
 
 ## GPU Support for Whisper Transcription (Optional but Recommended)
 

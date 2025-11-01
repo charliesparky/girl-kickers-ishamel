@@ -1,21 +1,21 @@
 <DoctrineNodes>
-	<Node
+    <Node
         name="GFL_ELMOCE_ImpromptuCatAndMouse"
         nameUI="@doctrine_gfl_elmoce_catandmouse_name"
         description="@doctrine_gfl_elmoce_catandmouse_descr"
         texturePrefix="data/textures/gui/doctrines/doctrine_empty"
     >
-		<GiveBuff
+        <GiveBuff
             nodeName="GFL_ELMOCE_CatPredator"
             target="self"
             targetClass="GFL-DOLL-PKPSP"
         />
-	</Node>
+    </Node>
 
-	<Node name="GFL_ELMOCE_CatPredator">
-		<EquipmentModifier target="lmg" suppressionScale="+0.6" />
+    <Node name="GFL_ELMOCE_CatPredator">
+        <EquipmentModifier target="lmg" suppressionScale="+0.6" />
 
-		<AttackTypeModifier
+        <AttackTypeModifier
             minRange="0"
             maxRange="50"
             onlyOnSuppressed="true"
@@ -25,67 +25,67 @@
             coverReductionMax="8"
         />
 
-		<GiveBuff
+        <GiveBuff
             nodeName="GFL_ELMOCE_TerrifiedMouse"
             target="enemies_in_radius"
             radius="5.0"
         />
-	</Node>
+    </Node>
 
-	<Node
+    <Node
         name="GFL_ELMOCE_TerrifiedMouse"
         description="@buff_gfl_elmoce_terrifiedmouse"
     >
-		<EquipmentModifier suppressionRecoveryAdd="-30" conditioning="-10" />
-		<AttackTypeModifier minRange="0" maxRange="999" accuracyAdd="-8" />
-	</Node>
+        <EquipmentModifier suppressionRecoveryAdd="-30" conditioning="-10" />
+        <AttackTypeModifier minRange="0" maxRange="999" accuracyAdd="-8" />
+    </Node>
 
-	<Node
+    <Node
         name="GFL_ELMOCE_HotOilProtection"
         nameUI="@doctrine_gfl_elmoce_hotoil_name"
         description="@doctrine_gfl_elmoce_hotoil_descr"
         texturePrefix="data/textures/gui/doctrines/doctrine_empty"
     >
-		<GiveBuff
+        <GiveBuff
             nodeName="GFL_ELMOCE_OilShield"
             target="self"
             targetClass="GFL-DOLL-SPAS12"
             when="kill"
             durationMs="5000"
         />
-	</Node>
+    </Node>
 
-	<Node name="GFL_ELMOCE_OilShield" description="@buff_gfl_elmoce_oilshield">
-		<EquipmentModifier
+    <Node name="GFL_ELMOCE_OilShield" description="@buff_gfl_elmoce_oilshield">
+        <EquipmentModifier
             flinchResistance="15"
             extraCoverage90="12"
             conditioning="12"
         />
 
-		<AttackTypeModifier
+        <AttackTypeModifier
             target="shotgun"
             minRange="0"
             maxRange="12"
             accuracyAdd="15"
             critChanceAdd="10"
         />
-	</Node>
+    </Node>
 
-	<Node
+    <Node
         name="GFL_ELMOCE_FragrantStirFry"
         nameUI="@doctrine_gfl_elmoce_stirfry_name"
         description="@doctrine_gfl_elmoce_stirfry_descr"
         texturePrefix="data/textures/gui/doctrines/doctrine_empty"
     >
-		<GiveBuff
+        <GiveBuff
             nodeName="GFL_ELMOCE_ChefSkills"
             target="self"
             targetClass="GFL-DOLL-TYPE97"
         />
-	</Node>
+    </Node>
 
-	<Node name="GFL_ELMOCE_ChefSkills">
-		<AttackTypeModifier
+    <Node name="GFL_ELMOCE_ChefSkills">
+        <AttackTypeModifier
             target="shotgun"
             minRange="0"
             maxRange="15"
@@ -94,49 +94,49 @@
             minAimTime="-50"
             maxAimTime="-60"
         />
-		<EquipmentModifier conditioning="5" />
+        <EquipmentModifier conditioning="5" />
 
-		<GiveBuff
+        <GiveBuff
             nodeName="GFL_ELMOCE_WellFed"
             target="friends_in_radius"
             radius="6.0"
         />
-	</Node>
+    </Node>
 
-	<Node name="GFL_ELMOCE_WellFed" description="@buff_gfl_elmoce_wellfed">
-		<EquipmentModifier suppressionRecoveryAdd="10" conditioning="4" />
-		<AttackTypeModifier minRange="0" maxRange="999" accuracyAdd="6" />
-	</Node>
+    <Node name="GFL_ELMOCE_WellFed" description="@buff_gfl_elmoce_wellfed">
+        <EquipmentModifier suppressionRecoveryAdd="10" conditioning="4" />
+        <AttackTypeModifier minRange="0" maxRange="999" accuracyAdd="6" />
+    </Node>
 
-	<Node
+    <Node
         name="GFL_ELMOCE_VentureCapital"
         nameUI="@doctrine_gfl_elmoce_venturecapital_name"
         description="@doctrine_gfl_elmoce_venturecapital_descr"
         texturePrefix="data/textures/gui/doctrines/doctrine_empty"
     >
-		<EquipmentModifier extraCoverage90="8" flinchResistance="10" />
-	</Node>
+        <EquipmentModifier extraCoverage90="8" flinchResistance="10" />
+    </Node>
 
-	<Node
+    <Node
         name="GFL_ELMOCE_MasochisticHallucination"
         nameUI="@doctrine_gfl_elmoce_masochistic_name"
         description="@doctrine_gfl_elmoce_masochistic_descr"
         texturePrefix="data/textures/gui/doctrines/doctrine_empty"
     >
-		<GiveBuff
+        <GiveBuff
             nodeName="GFL_ELMOCE_ThrillSeeker"
             target="self"
             targetClass="GFL-DOLL-PA15"
         />
-	</Node>
+    </Node>
 
-	<Node name="GFL_ELMOCE_ThrillSeeker">
-		<EquipmentModifier
+    <Node name="GFL_ELMOCE_ThrillSeeker">
+        <EquipmentModifier
             onlyWhenDamaged="true"
             conditioning="20"
             suppressionRecoveryAdd="30"
         />
-		<AttackTypeModifier
+        <AttackTypeModifier
             target="pistol"
             minRange="0"
             maxRange="20"
@@ -147,42 +147,42 @@
             maxAimTime="-100"
         />
 
-		<GiveBuff
+        <GiveBuff
             nodeName="GFL_ELMOCE_Hallucinating"
             target="enemies_in_radius"
             radius="6.0"
         />
-	</Node>
+    </Node>
 
-	<Node
+    <Node
         name="GFL_ELMOCE_Hallucinating"
         description="@buff_gfl_elmoce_hallucinating"
     >
-		<EquipmentModifier suppressionRecoveryAdd="-20" />
-		<AttackTypeModifier
+        <EquipmentModifier suppressionRecoveryAdd="-20" />
+        <AttackTypeModifier
             minRange="0"
             maxRange="999"
             accuracyAdd="-10"
             minAimTime="30"
             maxAimTime="40"
         />
-	</Node>
+    </Node>
 
-	<Node
+    <Node
         name="GFL_ELMOCE_RighteousVerdict"
         nameUI="@doctrine_gfl_elmoce_righteousverdict_name"
         description="@doctrine_gfl_elmoce_righteousverdict_descr"
         texturePrefix="data/textures/gui/doctrines/doctrine_empty"
     >
-		<GiveBuff
+        <GiveBuff
             nodeName="GFL_ELMOCE_PathOfJustice"
             target="self"
             targetClass="GFL-DOLL-VSK94"
         />
-	</Node>
+    </Node>
 
-	<Node name="GFL_ELMOCE_PathOfJustice">
-		<AttackTypeModifier
+    <Node name="GFL_ELMOCE_PathOfJustice">
+        <AttackTypeModifier
             target="dmr"
             minRange="0"
             maxRange="35"
@@ -192,7 +192,7 @@
             minAimTime="-40"
             maxAimTime="-50"
         />
-		<AttackTypeModifier
+        <AttackTypeModifier
             target="dmr"
             minRange="35"
             maxRange="60"
@@ -200,67 +200,67 @@
             critChanceAdd="8"
             headshotOnShot="2"
         />
-	</Node>
+    </Node>
 
-	<Node
+    <Node
         name="GFL_ELMOCE_ZoneReconnaissance"
         nameUI="@doctrine_gfl_elmoce_zonerecon_name"
         description="@doctrine_gfl_elmoce_zonerecon_descr"
         texturePrefix="data/textures/gui/doctrines/doctrine_empty"
     >
-		<Enable name="HumintNetwork" value="1" />
-		<EquipmentModifier conditioning="2" />
-	</Node>
+        <Enable name="HumintNetwork" value="1" />
+        <EquipmentModifier conditioning="2" />
+    </Node>
 
-	<Node
+    <Node
         name="GFL_ELMOCE_SurvivalInstinct"
         nameUI="@doctrine_gfl_elmoce_survivalinstinct_name"
         description="@doctrine_gfl_elmoce_survivalinstinct_descr"
         texturePrefix="data/textures/gui/doctrines/doctrine_empty"
     >
-		<Enable name="SurvivalRate" value="2" />
-		<EquipmentModifier
+        <Enable name="SurvivalRate" value="2" />
+        <EquipmentModifier
             onlyWhenDamaged="true"
             conditioning="15"
             suppressionRecoveryAdd="25"
             flinchResistance="12"
         />
-		<AttackTypeModifier
+        <AttackTypeModifier
             minRange="0"
             maxRange="999"
             onlyWhenDamaged="true"
             accuracyAdd="12"
             critChanceAdd="8"
         />
-	</Node>
+    </Node>
 
-	<Node
+    <Node
         name="GFL_ELMOCE_IndependentOperators"
         nameUI="@doctrine_gfl_elmoce_independent_name"
         description="@doctrine_gfl_elmoce_independent_descr"
         texturePrefix="data/textures/gui/doctrines/doctrine_empty"
     >
-		<EquipmentModifier
+        <EquipmentModifier
             suppressionRecoveryAdd="20"
             flinchResistance="12"
             conditioning="10"
         />
-		<AttackTypeModifier
+        <AttackTypeModifier
             minRange="0"
             maxRange="999"
             accuracyAdd="10"
             minAimTime="-40"
             maxAimTime="-50"
         />
-	</Node>
+    </Node>
 
-	<Node
+    <Node
         name="GFL_ELMOCE_VeteranMarksmanship"
         nameUI="@doctrine_gfl_elmoce_veteranmarks_name"
         description="@doctrine_gfl_elmoce_veteranmarks_descr"
         texturePrefix="data/textures/gui/doctrines/doctrine_empty"
     >
-		<AttackTypeModifier
+        <AttackTypeModifier
             minRange="0"
             maxRange="20"
             accuracyAdd="15"
@@ -268,7 +268,7 @@
             minAimTime="-50"
             maxAimTime="-60"
         />
-		<AttackTypeModifier
+        <AttackTypeModifier
             minRange="20"
             maxRange="999"
             accuracyAdd="12"
@@ -276,5 +276,5 @@
             minAimTime="-40"
             maxAimTime="-50"
         />
-	</Node>
+    </Node>
 </DoctrineNodes>
