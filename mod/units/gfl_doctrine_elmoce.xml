@@ -80,7 +80,7 @@
         <GiveBuff
             nodeName="GFL_ELMOCE_ChefSkills"
             target="self"
-            targetClass="GFL-DOLL-TYPE97"
+            targetClass="GFL-DOLL-TYPE97S"
         />
     </Node>
 

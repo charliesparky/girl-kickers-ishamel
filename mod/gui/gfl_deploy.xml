@@ -1072,7 +1072,7 @@
      </Item>
  </StaticImage>
 
- <StaticImage name="GFL-DOLL-TYPE97" origin="-101 -234">
+ <StaticImage name="GFL-DOLL-TYPE97S" origin="-101 -234">
      <RenderObject2D
              texture="data/textures/gui/square.tga"
              sizeX="178"

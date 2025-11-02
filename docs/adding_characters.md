@@ -61,7 +61,7 @@ Example: `gfl_dp12.dds`, `gfl_dp12_large.dds`
 **Voice Files** (in `/mod/sounds/voice/{CharacterName}/`):
 - Create a directory named after the character (e.g., `Helen`, `Lewis`)
 - Voice files should be processed WAV files with radio effect applied
-- See [Voice Lines](#6-voice-lines) for processing instructions
+- See [Voice Lines](#7-voice-lines) for processing instructions
 
 ## XML Files to Modify
 
@@ -96,7 +96,17 @@ Reference examples:
 - `model` and `diffuseTex` - Paths to weapon 3D model and texture
 - `AttackTypes` - Custom attack patterns (see next section)
 
-### 2. Equipment - Attack Types and Ammunition
+### 2. Equipment - Class Bindings
+
+**File:** `/mod/equipment/gfl_binds.xml`
+
+Define what equipment the doll class can use. Each `<Bind>` entry specifies all items that can be equipped by the doll class.
+
+Add a `<Bind to="GFL-DOLL-{WEAPON}">` entry containing the doll's signature weapon and all compatible equipment (armour variants, pistols, utilities, gear, NVG, and special items).
+
+Reference existing bindings for similar weapon types to ensure all appropriate equipment is included.
+
+### 3. Equipment - Attack Types and Ammunition
 
 **Files:** `/mod/equipment/gfl_attacktypes.xml` and `/mod/equipment/gfl_ammo.xml`
 
@@ -125,7 +135,7 @@ If your weapon uses a unique calibre or ammunition type, you may need to add amm
 > [!IMPORTANT]
 > Check the base game files first to see if suitable ammunition types already exist before creating new ones. Most weapons can use existing ammunition types from either the mod or base game.
 
-### 3. Entity Definition
+### 4. Entity Definition
 
 **File:** `/mod/entities/gfl_humans.xml`
 
@@ -140,8 +150,11 @@ Add an entity for the character to their squad. The entity defines the character
 - `voicePack` - Voice pack name (e.g., `Helen-Voice`)
 - `Equipment` - List of items the character starts with
 
+> [!NOTE]
+> Squad leaders and breachers (anyone with a shotgun) should have `<Item name="GFL_FeetOfTitanium" />` instead of `FeetOfSteel`. This allows them to kick down locked doors in one kick.
+
 Reference examples grouped by squad:
-- CAFE: `CAFE-WA2000`, `CAFE-SPRINGFIELD`
+- CAFE: `CAFE-WA2000`, `CAFE-M1903`
 - DEFY: `DEFY-AN94`, `DEFY-AK12`
 - ELMOCE: `ELMOCE-DP12`, `ELMOCE-SABRINA`
 - GROZA: `GROZA-OTS14`, `GROZA-VEPLEY`
@@ -150,7 +163,7 @@ Reference examples grouped by squad:
 > [!IMPORTANT]
 > The entity name pattern `{SQUAD}-{WEAPON}` is critical for the generation scripts to work correctly.
 
-### 4. Unit - Class Definition
+### 5. Unit - Class Definition
 
 **File:** `/mod/units/gfl_unit.xml`
 
@@ -168,7 +181,7 @@ Find the `<Unit name="GFL-UNIT-{SQUAD}">` section for your squad and add a new `
 - `upgrades` - Available upgrades (typically `BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2`)
 - `maxUpgradeable` - Maximum number of upgrades (typically `2`)
 
-### 5. Unit - Portrait Entries
+### 6. Unit - Portrait Entries
 
 **File:** `/mod/units/gfl_human_identities.xml`
 
@@ -196,7 +209,7 @@ Add two `<Portrait>` entries:
 > [!NOTE]
 > The character name in `customName` should be in all caps.
 
-### 6. Voice Lines
+### 7. Voice Lines
 
 **File:** `/mod/sounds/gfl_voice_lines_{squad}.xml`
 
@@ -275,7 +288,7 @@ python scripts/cleanup_unused_sounds.py
 
 This removes voice files that exist in the directories but aren't referenced in any voice pack XML, keeping the mod at an acceptable file size.
 
-### 7. Localisation
+### 8. Localisation
 
 **File:** `/mod/localization/gfl_game.txt`
 
@@ -359,37 +372,38 @@ Follow these steps in order when adding a new character:
 ### 2: Manual XML Entries
 
 3. Add weapon to `/mod/equipment/gfl_weapons.xml`
-4. Add attack types to `/mod/equipment/gfl_attacktypes.xml` (if needed)
-5. Add ammunition to `/mod/equipment/gfl_ammo.xml` (if needed)
-6. Add entity to `/mod/entities/gfl_humans.xml`
-7. Add class to `/mod/units/gfl_unit.xml`
-8. Add portraits to `/mod/units/gfl_human_identities.xml` (both squad and GIRL)
-9. Add voice pack to `/mod/sounds/gfl_voice_lines_{squad}.xml`
-10. Add localisation to `/mod/localization/gfl_game.txt`
+4. Add class bindings to `/mod/equipment/gfl_binds.xml`
+5. Add attack types to `/mod/equipment/gfl_attacktypes.xml` (if needed)
+6. Add ammunition to `/mod/equipment/gfl_ammo.xml` (if needed)
+7. Add entity to `/mod/entities/gfl_humans.xml`
+8. Add class to `/mod/units/gfl_unit.xml`
+9. Add portraits to `/mod/units/gfl_human_identities.xml` (both squad and GIRL)
+10. Add voice pack to `/mod/sounds/gfl_voice_lines_{squad}.xml`
+11. Add localisation to `/mod/localization/gfl_game.txt`
 
 ### 3: Validation
 
-11. Validate voice files:
+12. Validate voice files:
     ```bash
     python scripts/validate_voice_files.py
     ```
 
 ### 4: Generation
 
-12. Generate GIRL variants:
+13. Generate GIRL variants:
     ```bash
     python scripts/generate_girls.py
     ```
 
-13. Generate deployment screens:
+14. Generate deployment screens:
     ```bash
     python scripts/generate_deploy.py
     ```
 
 ### 5: Testing & Cleanup
 
-14. Test in-game to verify everything works
-15. Clean up unused voice files:
+15. Test in-game to verify everything works
+16. Clean up unused voice files:
     ```bash
     python scripts/cleanup_unused_sounds.py
     ```

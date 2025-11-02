@@ -813,10 +813,10 @@
         </Human>
     </Entity>
 
-    <Entity name="GIRL-TYPE97" type="Human" editorAutoHeight="false">
+    <Entity name="GIRL-TYPE97S" type="Human" editorAutoHeight="false">
         <RenderObject3D
-            model="data/models/dolls/type97.khm"
-            diffuseTex="data/models/dolls/type97.dds"
+            model="data/models/dolls/type97s.khm"
+            diffuseTex="data/models/dolls/type97s.dds"
         />
 
         <Breakable
@@ -826,10 +826,10 @@
         />
         <PhysicalParams health="225" />
 
-        <Human type="GoodGuy" unit="GFL-UNIT-GIRL" class="GFL-DOLL-TYPE97">
+        <Human type="GoodGuy" unit="GFL-UNIT-GIRL" class="GFL-DOLL-TYPE97S">
             <Id
-                name="ELMOCE-TYPE97"
-                portrait="data/textures/portraits/gfl_type97.dds"
+                name="ELMOCE-TYPE97S"
+                portrait="data/textures/portraits/gfl_type97s.dds"
                 gender="0"
                 voicePack="Qiuhua-Voice"
             />
@@ -842,7 +842,7 @@
             </Mobility>
 
             <Equipment>
-                <Item name="GFL-WEAP-TYPE97" />
+                <Item name="GFL-WEAP-TYPE97S" />
                 <Item name="IronSights" />
                 <Item name="M9 Pistol" />
                 <Item name="IronSights_Pistol" />

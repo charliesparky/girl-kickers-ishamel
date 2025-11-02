@@ -1734,7 +1734,7 @@
     </Firearm>
 
 <!-- Type 97 Shotgun -->
-    <Bind eqp="GFL-WEAP-TYPE97">
+    <Bind eqp="GFL-WEAP-TYPE97S">
         <to name="12GA00BUCK_M1014" />
         <to name="12GA00BUCK8_M500" />
         <to name="12GANO4BUCK_M500" />
@@ -1746,13 +1746,13 @@
     </Bind>
 
     <Firearm
-        name="GFL-WEAP-TYPE97"
+        name="GFL-WEAP-TYPE97S"
         inventoryBinding="PrimaryWeapon"
         category="shotgun"
         unlockCost="0"
-        tooltip="@WEAP-TYPE97-NAME"
-        description="@WEAP-TYPE97-DESC"
-        img="data/models/signatures/type97_ui.dds"
+        tooltip="@WEAP-TYPE97S-NAME"
+        description="@WEAP-TYPE97S-DESC"
+        img="data/models/signatures/type97s_ui.dds"
         animationSet="shotgun_m1014"
     >
         <MobilityModifiers
@@ -1762,10 +1762,10 @@
         <ConcealmentModifier add="-3" />
 
         <RenderObject3D
-            model="data/models/signatures/type97.khm"
+            model="data/models/signatures/type97s.khm"
             attachSlot="prop_front_rifle"
             skipGOSSAO="true"
-            diffuseTex="data/models/signatures/type97.dds"
+            diffuseTex="data/models/signatures/type97s.dds"
         />
 
         <ModifiableParams

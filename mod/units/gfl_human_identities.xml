@@ -284,16 +284,16 @@
         customName="SABRINA"
     />
     <Portrait
-        tex="data/textures/portraits/gfl_type97.dds"
+        tex="data/textures/portraits/gfl_type97s.dds"
         unit="GFL-UNIT-ELMOCE"
-        class="GFL-DOLL-TYPE97"
+        class="GFL-DOLL-TYPE97S"
         gender="0"
         customName="QIUHUA"
     />
     <Portrait
-        tex="data/textures/portraits/gfl_type97.dds"
+        tex="data/textures/portraits/gfl_type97s.dds"
         unit="GFL-UNIT-GIRL"
-        class="GFL-DOLL-TYPE97"
+        class="GFL-DOLL-TYPE97S"
         gender="0"
         customName="QIUHUA"
     />

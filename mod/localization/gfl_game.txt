@@ -349,10 +349,10 @@
 @WEAP-SPAS12-NAME=SPAS-12
 @WEAP-SPAS12-DESC=The Franchi SPAS-12 is an Italian dual-mode combat shotgun that can operate as either semi-automatic or pump-action. Chambered in 12 gauge, it became iconic through its appearances in action films and video games.
 
-@DOLL-TYPE97-NAME=QIUHUA
-@DOLL-TYPE97-DESC=A cheerful and optimistic Doll who hunts for delicacies in the Yellow Zone and helps feed settlements in the harsh contaminated lands. A wandering hero who won't let a single bad deed go unpunished. “Adding ketchup to sweet and sour pork is a sin, but if you like it that much, I'll let it slide.”
-@WEAP-TYPE97-NAME=Type 97 Shotgun
-@WEAP-TYPE97-DESC=The Hawk Industries Type 97 is a Chinese 12 gauge shotgun with dual-mode operation. It uses a 5-round detachable box magazine and can switch between gas-operated semi-automatic and pump-action modes.
+@DOLL-TYPE97S-NAME=QIUHUA
+@DOLL-TYPE97S-DESC=A cheerful and optimistic Doll who hunts for delicacies in the Yellow Zone and helps feed settlements in the harsh contaminated lands. A wandering hero who won't let a single bad deed go unpunished. “Adding ketchup to sweet and sour pork is a sin, but if you like it that much, I'll let it slide.”
+@WEAP-TYPE97S-NAME=Type 97 Shotgun
+@WEAP-TYPE97S-DESC=The Hawk Industries Type 97 is a Chinese 12 gauge shotgun with dual-mode operation. It uses a 5-round detachable box magazine and can switch between gas-operated semi-automatic and pump-action modes.
 
 @DOLL-MP5-NAME=PERI
 @DOLL-MP5-DESC=A small but ambitious rookie Underground Broker, cheerful and friendly in her daily life, but sly and crafty when dealing with her peers. She aims to be “cool” like her former teacher, and doesn't worry as much about her size now, caring about “strength” instead. Part of being “cool” is to proactively and handsomely solve any problem her friends have. She trains hard to reach her ideal of “cool” and learned the trade of the Brokers when working in contamination zones. Intel, Relic tech, rare resources, she'll handle any job, but what she yearns for is to hear news of her former comrades, and so she follows the Elmo. Maybe you can compliment her for her hard work?

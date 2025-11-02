@@ -213,9 +213,9 @@
                 maxUpgradeable="2"
             />
             <Class
-                name="GFL-DOLL-TYPE97"
-                nameUI="@DOLL-TYPE97-NAME"
-                description="@DOLL-TYPE97-DESC"
+                name="GFL-DOLL-TYPE97S"
+                nameUI="@DOLL-TYPE97S-NAME"
+                description="@DOLL-TYPE97S-DESC"
                 numSlots="1"
                 supply="100"
                 iconTex="data/textures/gui/deploy/class_icon_undercover.dds"
