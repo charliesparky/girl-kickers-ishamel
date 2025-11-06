@@ -314,7 +314,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
       <Path
-                name="data/sounds/voice/Macqiato/Series_Win__VO_Macqiato_Single_Win_001.wav"
+                name="data/sounds/voice/Macqiato/Series_Kill__VO_Macqiato_Single_Kill_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_COME">

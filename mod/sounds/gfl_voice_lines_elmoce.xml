@@ -44,7 +44,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
       <Path
-                name="data/sounds/voice/Peritya/Series_Win__VO_Peritya_Single_Win_001.wav"
+                name="data/sounds/voice/Peritya/Series_Kill__VO_Peritya_Single_Kill_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
@@ -54,7 +54,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
       <Path
-                name="data/sounds/voice/Peritya/Series_Kill__VO_Peritya_Single_Kill_001.wav"
+                name="data/sounds/voice/Peritya/Series_Win__VO_Peritya_Single_Win_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
@@ -257,7 +257,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
       <Path
-                name="data/sounds/voice/Sabrina/Series_Win__VO_Sabrina_Single_Win_001.wav"
+                name="data/sounds/voice/Sabrina/Series_Kill__VO_Sabrina_Single_Kill_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
@@ -267,7 +267,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
       <Path
-                name="data/sounds/voice/Sabrina/Series_Battle_Start__Chosen__Move_Start__Set_Click__Tone_Pos_001.wav"
+                name="data/sounds/voice/Sabrina/Series_Win__VO_Sabrina_Single_Win_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
@@ -459,7 +459,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
       <Path
-                name="data/sounds/voice/Qiuhua/Series_Win__VO_Qiuhua_Single_Win_001.wav"
+                name="data/sounds/voice/Qiuhua/Series_Kill__VO_Qiuhua_Single_Kill_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
@@ -469,7 +469,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
       <Path
-                name="data/sounds/voice/Qiuhua/Series_Kill__VO_Qiuhua_Single_Kill_001.wav"
+                name="data/sounds/voice/Qiuhua/Series_Win__VO_Qiuhua_Single_Win_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
@@ -667,7 +667,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
       <Path
-                name="data/sounds/voice/Peri/Series_Win__VO_Peri_Single_Win_001.wav"
+                name="data/sounds/voice/Peri/Series_Kill__VO_Peri_Single_Kill_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
@@ -677,7 +677,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
       <Path
-                name="data/sounds/voice/Peri/Series_Kill__VO_Peri_Single_Kill_001.wav"
+                name="data/sounds/voice/Peri/Series_Win__VO_Peri_Single_Win_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
@@ -875,7 +875,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
       <Path
-                name="data/sounds/voice/Florence/Series_Win__VO_Florence_Single_Win_001.wav"
+                name="data/sounds/voice/Florence/Series_Kill__VO_Florence_Single_Kill_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
@@ -885,7 +885,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
       <Path
-                name="data/sounds/voice/Florence/Series_Kill__VO_Florence_Single_Kill_001.wav"
+                name="data/sounds/voice/Florence/Series_Win__VO_Florence_Single_Win_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
@@ -1085,7 +1085,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
       <Path
-                name="data/sounds/voice/Nikketa/Series_Win__VO_Nikketa_Single_Win_001.wav"
+                name="data/sounds/voice/Nikketa/Series_Kill__VO_Nikketa_Single_Kill_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
@@ -1095,7 +1095,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
       <Path
-                name="data/sounds/voice/Nikketa/Series_Kill__VO_Nikketa_Single_Kill_001.wav"
+                name="data/sounds/voice/Nikketa/Series_Win__VO_Nikketa_Single_Win_001.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
@@ -1303,7 +1303,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
       <Path
-            name="data/sounds/voice/Helen/Series_Win__VO_Helen_Single_Win_001.wav"
+            name="data/sounds/voice/Helen/Series_Kill__VO_Helen_Single_Kill_001.wav"
         />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
@@ -1313,7 +1313,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
       <Path
-            name="data/sounds/voice/Helen/Series_Kill__VO_Helen_Single_Kill_001.wav"
+            name="data/sounds/voice/Helen/Series_Win__VO_Helen_Single_Win_001.wav"
         />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">
@@ -1513,7 +1513,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
       <Path
-            name="data/sounds/voice/Lewis/Series_Win__VO_Lewis_Single_Win_001.wav"
+            name="data/sounds/voice/Lewis/Series_Kill__VO_Lewis_Single_Kill_001.wav"
         />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
@@ -1523,7 +1523,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_DONE_HERE">
       <Path
-            name="data/sounds/voice/Lewis/Series_Kill__VO_Lewis_Single_Kill_001.wav"
+            name="data/sounds/voice/Lewis/Series_Win__VO_Lewis_Single_Win_001.wav"
         />
     </Sound>
     <Sound ID="VOX_TRPR_EVAC">

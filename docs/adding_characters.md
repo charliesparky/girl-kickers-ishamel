@@ -258,7 +258,7 @@ The voice pack maps various in-game events (combat, movement, status changes) to
 - `VOX_TRPR_GO_GO_GO` - Battle start/movement commands
 - `VOX_TRPR_MOVING` - Movement acknowledgement
 - `VOX_TRPR_ROGER` - Command acknowledgement
-- `VOX_TRPR_CLEAR` - Clear command
+- `VOX_TRPR_CLEAR` - Area cleared of enemies
 - `VOX_WARN_GRENADE` - Grenade warning
 - Many more tactical callouts...
 

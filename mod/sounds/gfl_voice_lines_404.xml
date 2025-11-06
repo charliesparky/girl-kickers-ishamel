@@ -218,9 +218,7 @@
             />
     </Sound>
     <Sound ID="VOX_TRPR_TARGET_SEC">
-      <Path
-                name="data/sounds/voice/Clukay/Series_Win__VO_Clukay_Single_Win_001.wav"
-            />
+      <Path name="data/sounds/voice/Clukay/Series_Tone_Positive_003.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_TIME_TO_GO">
       <Path name="data/sounds/voice/Clukay/Series_Up_005.wav" />
@@ -465,7 +463,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_TARGET_SEC">
       <Path
-                name="data/sounds/voice/Mechty/Series_Win__VO_Mechty_Single_Win_001.wav"
+                name="data/sounds/voice/Mechty/Series_Cancel__VO_Mechty_Series_Tone_Positive_009.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_TIME_TO_GO">

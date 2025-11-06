@@ -57,7 +57,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
       <Path
-                name="data/sounds/voice/Groza/Series_Win__VO_Groza_Single_Win_001.wav"
+                name="data/sounds/voice/Groza/Series_Tone_Positive_009.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
@@ -176,7 +176,7 @@
       <Path name="data/sounds/voice/Groza/Series_Tone_Positive_008.wav" />
     </Sound>
     <Sound ID="VOX_RELOAD">
-      <Path name="data/sounds/voice/Groza/Series_Daily_010.wav" />
+      <Path name="data/sounds/voice/Groza/Series_Tone_Positive_008.wav" />
     </Sound>
     <Sound ID="VOX_TRPR_ROGER">
       <Path
@@ -540,7 +540,7 @@
     </Sound>
     <Sound ID="VOX_TRPR_CLEAR">
       <Path
-                name="data/sounds/voice/Charolic/Series_Win__VO_Charolic_Single_Win_001.wav"
+                name="data/sounds/voice/Charolic/Series_Skill02__VO_Charolic_Single_Skill_002.wav"
             />
     </Sound>
     <Sound ID="VOX_TRPR_COME">
