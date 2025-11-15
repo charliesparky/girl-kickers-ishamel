@@ -17,7 +17,7 @@ MMD models are designed for animation software and need to be adapted to work in
 6. **Painting skin weights** - Ensuring the model deforms correctly with the new skeleton
 7. **Exporting** - Converting to KHM format for use in-game
 
-The entire process typically takes 20-30 minutes per model once you're familiar with the workflow.
+The entire process typically takes 10-20 minutes per model once you're familiar with the workflow.
 
 ## Prerequisites
 
@@ -217,6 +217,8 @@ For these bones, I need to scale the spine and hands to be shorter in order to m
 
 > [!WARNING]
 > I generally will NOT touch the legs, as DK2 appears to want the pelvis bone in a specific place or else everything gets messed up. Adjusting the legs will change the position of the pelvis, which we can't do. This means the model's hip joints are never where they're supposed to be - we can't do anything about this.
+>
+> You also shouldn't shortern or lengthen the arms and hands too much, but it isn't as big a deal.
 
 After shortening the spine and hands, my model now looks like this:
 
