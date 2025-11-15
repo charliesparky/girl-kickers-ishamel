@@ -23,7 +23,7 @@ you can get mmd models from either:
 
 first make sure your units are set to meters, open `Customize > Units Setup...` and change it to the picture:
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/units.png)
+![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/units.png)
 
 run the pmx importer script - `Scripting > Run Script...` then open `PmxToolv1_2`. you should see a window popup with two bottons "Import" and "Export" and a section below that called "Import Options".
 
@@ -33,11 +33,11 @@ Then go to the folder you extracted the model into and select the `.pmx` file, f
 
 Once the model is in the viewport, we need to check it's height. Make sure the model is selected in the list on the left (the model is usually called `Object001`) and then press the "wrench" icon on the top bar in the panel on the right. And under "Utilities", click "Measure". This will open a new section with "Dimensions" where you can see the X, Y, Z values of the model. We want the "Z" value to be as close to 1.9m as possible (I've found anything from 1.88 to 1.92 to be acceptable).
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/measure.png)
+![measure](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/measure.png)
 
 This shows a Z dimension of 2.01m which will not work, we need to re-import it with a different scale. Since we need to make it only slightly smaller, I'm going to try a scale of 0.095 this time, which is -0.005 from 0.1.
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/measure2.png)
+![measure2](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/measure2.png)
 
 Nice! That will work.
 
@@ -45,7 +45,7 @@ Now we're going to remove all the existing bones from the model (all the pyramid
 
 Then you can just CTRL-click on everything that isn't the model (again, the model is usually called `Object001`) and then right click in the panel and click "Delete". This will also probably freeze 3ds Max for a while. Now you should have a clean viewport with just the model, that looks like something like this:
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/viewport.png)
+![viewport](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/viewport.png)
 
 You'll notice the model is very shiny, the PMX importer adds a shiny/reflective material to the model. To remove this, we need to remove the reflections from all materials using a script.
 
@@ -61,7 +61,7 @@ Now we need to optimise the model to reduce its vertex count. With the model sel
 
 First we want to toggle "Keep Textures" under "Materials and UVs", then we press the "Calculate" button at the top. The right side panel should then look something like this:
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/optimise.png)
+![optimise](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/optimise.png)
 
 The important number we need to look at is "Faces" - mine says "39989 / 39989". This is already perfect! We want to keep it under "44000" (ideally "40000").
 
@@ -77,19 +77,19 @@ Nice, now what we're going to do is merge all the textures that the model uses i
 
 Make sure the model is selected and in the "Modify" panel, search for "Unwrap UVW" and click it. Then click on the triangle next to "Unwrap UVW" and select "Polygon", then enter Ctrl-A to select all polygons. Your viewport should look like this:
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/uvwselect.png)
+![uvwselect](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/uvwselect.png)
 
 Then in the "Channel" section, change "Map Channel:" from "1" to "2" and hit enter. Press "OK" on any warnings that appear. In the "Edit UVs" section above it, click "Open UV Editor ...". This will open a new window.
 
 Now at the top bar of that window click "Mapping > Flatten Mapping...". This will open another window, here you just change the "Spacing" value from "0.001" to "0", then click "OK". This will also take a while. Once that's done your "Edit UVWs" window should look like this, with the UVs flattened:
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/edituvws.png)
+![edituvws](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/edituvws.png)
 
 Now close that window, go back to the right panel and in the "Channel" section, click "Save" - I'm going to save mine as "qbz191.uvw".
 
 We're now going to render the texture into a `.dds`, but we first need to make sure our rendering settings are correct. Go to `Rendering > Render Setup...` and change your settings to this:
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/rendersettings.png)
+![rendersettings](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/rendersettings.png)
 
 The important thing is that we're using "Scanline Renderer", you should also probably click "Save as Default" so you don't have to do this every time. 
 
@@ -99,7 +99,7 @@ Now we're ready to render it. With the model selected, go to `Rendering > Render
 
 In the section under that you should see "File Name and Type:" be something like "qbz191DiffuseMap.tga", click the three dots button next to that and change "Save as type" to "DDS Image File (*.dds)" and click "Save". Another window will appear, you can just press "OK" for that to leave it as the default. Now find the "Width" and "Height" fields and change them to be both "4096". In the end it should look like this:
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/rendertexturesettings.png)
+![rendertexturesettings](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/rendertexturesettings.png)
 
 Now you can click "Render". This will render it and save it as "qbz191DiffuseMap.dds" or whatever you named it in the path we saw previously.
 
@@ -107,7 +107,7 @@ Once that's done, you can close the rendering windows and then delete the skylig
 
 In the modifier list, find and create an "Edit Poly" modifier and drag this to be under "Skin" but above "Editable Mesh" in the list. Click on the modifier and in the "Selection" section, click the polygon option (the blue square), use Ctrl-A to select all polygons. Then find the "Polygon: Material IDs" section (it should be near the end), and enter "1" into the "Set ID:" field and press Enter. When you do that, the "Select ID" field should then also become "1".
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/editpoly.png)
+![editpoly](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/editpoly.png)
 
 Now right click on the "Edit Poly" modifier and click "Collapse To", again ignoring the warning and pressing "Yes".
 
@@ -121,25 +121,25 @@ Instead I suggest using the scene file I provide in this repo at `/tools/3ds_sce
 
 To do this, open `File > Import > Merge...` in the top menu bar, open the scene file, and select everything except "gfl_springfield".
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/bonesselect.png)
+![bonesselect](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/bonesselect.png)
 
 Now your viewport should look like this:
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/bonesstart.png)
+![bonesstart](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/bonesstart.png)
 
 First, move the "@Collision.capsule" object to become a child of "qbz191":
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/collisionchild.png)
+![collisionchild](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/collisionchild.png)
 
 Now you should work on scaling the bones to match your model as close as possible. To make it easier, I suggest setting your "Selection Filter" to "Bone" so you can only select on bones.
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/selectionfilter.png)
+![selectionfilter](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/selectionfilter.png)
 
 For this model, I need to scale the spine and hands to be shorter too. One thing to note, is that I generally will NOT touch the legs, as DK2 appears to want the pelvis bone in a specific place or else everything gets messed up. So adjusting the legs will change the position of the pelvis, which we can't do. This means the model's hip joints are never where they're supposed to be - we can't do anything about this.
 
 After shortening the spine and hands, my model now looks like this:
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/bonesedited.png)
+![bonesedited](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/bonesedited.png)
 
 Now we want to select the "qbz191" object, go to the "Modify" tab and select the "Skin" modifier. This will mess up the textures, don't worry about it. In "Parameters" click "Bones: Add", this will open a new window, you should just see "Bip001" in the list. In the menu bar of that window click `Select > Select All` and click the "Select" button on the bottom. This will put all the bones in the list.
 
@@ -147,29 +147,29 @@ Still in the "Skin" modifier, go to "Weight Properties", find "Weight Solver" an
 
 To check the weights have been applied, scroll back to the top of the "Parameters" section and click "Edit Envelopes" and then click on any bone in the list (I like to use `Bip001 Head`). Once that's clicked, you should see the head of the model shaded in red/orange/blue.
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/checkweights.png)
+![checkweights](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/checkweights.png)
 
 For characters with longer hair like mine, we also want to set the weights of her hair to the head bone so it doesn't become messed up in game. 
 
 Select the vertices checkbox in "Select" and then select "Select Element".
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/selectelement.png)
+![selectelement](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/selectelement.png)
 
 Now Ctrl-Click on all the hair of the model to select them. Make sure you ONLY select the hair.
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/selecthair.png)
+![selecthair](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/selecthair.png)
 
 Then go back down to the "Weight Properties" and click the weight tool (the "wrench" next to "Weight Table"). You should see a window like this:
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/weightnohead.png)
+![weightnohead](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/weightnohead.png)
 
 But we have a problem here - there's no "Bip001 Head" in the list! This means that the hair vertices do not have enough weights assigned to the head bone to be put in this list. So instead, we need to first select the hair elements that are close to the head, and gradually add other hair elements to them.
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/selecthair2.png)
+![selecthair2](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/selecthair2.png)
 
-Here we can see I've select only a portion of the hair, including ones right on the head, and now we have "Bip001 Head" in the list. What we want to do now is set the weights to be 100% for the head bone. Click on the "Bip001 Head" bone in the list and then click on the "1" button. Now it should be set to "1.000".
+Here we can see I've selected only a portion of the hair, including ones right on the head, and now we have "Bip001 Head" in the list. What we want to do now is set the weights to be 100% for the head bone. Click on the "Bip001 Head" bone in the list and then click on the "1" button. Now it should be set to "1.000".
 
-![units](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversionimg/selecthair3.png)
+![selecthair3](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/selecthair3.png)
 
 Now continue Ctrl-Clicking on hair elements and setting the weights to be 100% for the head bone. This will gradually build up the weights for the head bone, allowing the hair to be properly controlled by the head bone. If you select a new hair element, but the "Bip001 Head" still says "1.000", you should still click "1" - make sure all the hair elements are completely red.
 
