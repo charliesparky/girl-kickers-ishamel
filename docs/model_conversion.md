@@ -232,9 +232,12 @@ To check the weights have been applied, scroll back to the top of the **Paramete
 
 ![checkweights](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/checkweights.png)
 
-### Weight Hair to Head Bone (Optional)
+### Weight Hair (and Accessories) to Specific Bones (Optional)
 
-For characters with longer hair like mine, we also want to set the weights of the hair to the head bone so it doesn't become messed up in-game. 
+For characters with hair that reaches their neck or longer, we also want to set the weights of the hair to the head bone so the hair doesn't become messed up in-game.
+
+> [!TIP]
+> This same technique applies to other static accessories that extend from the body - like capes, bags, or equipment. Weight these to an appropriate bone that doesn't move much, like `Bip001 Spine` (avoid bones like arms that move a lot). For example, Nemesis's cape and Lewis's bag have been weighted to `Bip001 Spine` instead of letting the automatic weights control them. 
 
 Select the vertices checkbox in **Select** and then select **Select Element**.
 
