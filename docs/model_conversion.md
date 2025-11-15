@@ -5,10 +5,38 @@ This guide walks through the complete process of converting MMD (MikuMikuDance) 
 > [!NOTE]
 > This guide is more specific to Girls' Frontline 2 MMD models.
 
+## Overview
+
+MMD models are designed for animation software and need to be adapted to work in Door Kickers 2. This process involves:
+
+1. **Importing and scaling** - MMD models need to be scaled to DK2's 1.9m character height
+2. **Removing the MMD skeleton** - The original bone structure isn't compatible with DK2
+3. **Optimising geometry** - Reducing polygon count for game performance (target: under 44,000 faces)
+4. **Consolidating textures** - Merging multiple MMD textures into a single texture map for DK2
+5. **Re-rigging with DK2 skeleton** - Adding DK2's bone structure and fitting it to the model
+6. **Painting skin weights** - Ensuring the model deforms correctly with the new skeleton
+7. **Exporting** - Converting to KHM format for use in-game
+
+The entire process typically takes 20-30 minutes per model once you're familiar with the workflow.
+
 ## Prerequisites
+
+### Software
 
 - 3ds Max 2026 (not tested on older versions, but will probably still work)
 - GIMP (or equivalent image editor)
+
+### 3ds Max Knowledge
+
+This guide assumes you have basic familiarity with 3ds Max. Before starting, you should understand:
+
+- **Camera navigation** - How to pan, zoom, and rotate the viewport
+- **Object manipulation** - How to move, rotate, and scale objects
+- **Selection** - How to select objects in the viewport and scene hierarchy
+- **Basic UI navigation** - Finding panels, menus, and modifiers
+
+> [!TIP]
+> If you're new to 3ds Max, search for beginner tutorials on YouTube covering "3ds Max viewport navigation" and "3ds Max basic object manipulation" before proceeding.
 
 ## Setup
 
@@ -19,8 +47,8 @@ This guide walks through the complete process of converting MMD (MikuMikuDance) 
 
 ### Download MMD Models
 
-You can get MMD models from either:
-- https://gf2exilium.sunborngame.com/main/art (official, Global version only)
+You can get GFL2 MMD models from either:
+- https://gf2exilium.sunborngame.com/main/art (official, models from Global only)
 - https://www.aplaybox.com/u/636064186/model (unofficial, all CN models ripped from game files, requires phone number to sign up)
 
 ## Part 1: Configure 3ds Max and Import Model
@@ -78,7 +106,7 @@ Open the script listener with **F11** (or **Scripting > Scripting Listener**), d
 for mat in sceneMaterials where classof mat == Multimaterial do for sub in mat.materialList where sub != undefined and classof sub == PhysicalMaterial do (sub.base_weight = 1.0; sub.reflectivity = 0.0; sub.roughness = 1.0; sub.metalness = 0.0)
 ```
 
-Put your text cursor at the end of the script and press **Enter** to run it (make sure the cursor is on the same line as this script, at the end of the line). Your model should no longer be shiny.
+Click at the end of the script line (after the final `)`) and press **Enter** to execute it. Your model should no longer be shiny.
 
 ## Part 2: Optimise and Prepare Textures
 
@@ -185,7 +213,7 @@ Now you should work on scaling the bones to match your model as close as possibl
 
 ![selectionfilter](https://github.com/beanpuppy/girl-kickers/blob/main/docs/media/model_conversion/selectionfilter.png)
 
-For this model, I need to scale the spine and hands to be shorter too.
+For these bones, I need to scale the spine and hands to be shorter in order to match the model.
 
 > [!WARNING]
 > I generally will NOT touch the legs, as DK2 appears to want the pelvis bone in a specific place or else everything gets messed up. Adjusting the legs will change the position of the pelvis, which we can't do. This means the model's hip joints are never where they're supposed to be - we can't do anything about this.
